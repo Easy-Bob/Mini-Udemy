@@ -1,0 +1,678 @@
+2025-08-26 08:01:57,800 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 08:01:57,800 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 08:01:58,284 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 08:01:58,284 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 08:01:59,083 INFO [main][GenericScope.java:295] - BeanFactory id=3ba6c044-8810-3411-922f-b774b26171b6
+2025-08-26 08:01:59,083 INFO [main][GenericScope.java:295] - BeanFactory id=3ba6c044-8810-3411-922f-b774b26171b6
+2025-08-26 08:01:59,365 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 08:01:59,365 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 08:01:59,369 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:01:59,369 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:01:59,378 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 08:01:59,378 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 08:01:59,378 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 08:01:59,378 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 08:01:59,523 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 08:01:59,523 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 08:01:59,525 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1226 ms
+2025-08-26 08:01:59,525 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1226 ms
+2025-08-26 08:02:00,308 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 08:02:00,308 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 08:02:00,385 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:02:00,385 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:02:00,750 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:02:00,750 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:02:00,793 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 08:02:00,793 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 08:02:00,795 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 08:02:00,795 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 08:02:00,805 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 08:02:00,805 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 08:02:00,832 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 08:02:00,832 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 08:02:00,982 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 3.697 seconds (JVM running for 4.762)
+2025-08-26 08:02:00,982 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 3.697 seconds (JVM running for 4.762)
+2025-08-26 08:02:01,105 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 08:02:01,105 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 08:02:01,108 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 08:02:01,108 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 08:02:01,111 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 3 ms
+2025-08-26 08:02:01,111 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 3 ms
+2025-08-26 08:02:01,390 WARN [http-nio-63040-exec-1][AbstractSerializableParameter.java:421] - Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Long.parseLong(Long.java:718)
+	at java.base/java.lang.Long.valueOf(Long.java:1156)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:726)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:681)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4409)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3663)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2025-08-26 08:02:01,390 WARN [http-nio-63040-exec-1][AbstractSerializableParameter.java:421] - Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Long.parseLong(Long.java:718)
+	at java.base/java.lang.Long.valueOf(Long.java:1156)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:726)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:681)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4409)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3663)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2025-08-26 08:02:01,402 WARN [http-nio-63040-exec-1][AbstractSerializableParameter.java:421] - Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Long.parseLong(Long.java:718)
+	at java.base/java.lang.Long.valueOf(Long.java:1156)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:726)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:681)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4409)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3663)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2025-08-26 08:02:01,402 WARN [http-nio-63040-exec-1][AbstractSerializableParameter.java:421] - Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Long.parseLong(Long.java:718)
+	at java.base/java.lang.Long.valueOf(Long.java:1156)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:726)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:681)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4409)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3663)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2025-08-26 08:02:14,458 INFO [http-nio-63040-exec-10][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 08:02:14,458 INFO [http-nio-63040-exec-10][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 08:02:14,787 INFO [http-nio-63040-exec-10][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 08:02:14,787 INFO [http-nio-63040-exec-10][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 08:11:55,011 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:11:55,011 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:11:55,013 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 08:11:55,013 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 08:11:55,019 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 08:11:55,019 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 08:11:58,220 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 08:11:58,220 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 08:11:58,508 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 08:11:58,508 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 08:11:59,025 INFO [main][GenericScope.java:295] - BeanFactory id=3ba6c044-8810-3411-922f-b774b26171b6
+2025-08-26 08:11:59,025 INFO [main][GenericScope.java:295] - BeanFactory id=3ba6c044-8810-3411-922f-b774b26171b6
+2025-08-26 08:11:59,225 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 08:11:59,225 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 08:11:59,238 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:11:59,238 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:11:59,238 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 08:11:59,238 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 08:11:59,239 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 08:11:59,239 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 08:11:59,339 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 08:11:59,339 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 08:11:59,339 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 822 ms
+2025-08-26 08:11:59,339 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 822 ms
+2025-08-26 08:11:59,842 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 08:11:59,842 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 08:11:59,897 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:11:59,897 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:12:00,125 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:12:00,125 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:12:00,158 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 08:12:00,158 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 08:12:00,159 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 08:12:00,159 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 08:12:00,168 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 08:12:00,168 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 08:12:00,185 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 08:12:00,185 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 08:12:00,288 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.354 seconds (JVM running for 3.016)
+2025-08-26 08:12:00,288 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.354 seconds (JVM running for 3.016)
+2025-08-26 08:18:34,082 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:18:34,082 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:18:44,142 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 08:18:44,142 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 08:18:44,426 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 08:18:44,426 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 08:18:44,955 INFO [main][GenericScope.java:295] - BeanFactory id=3ba6c044-8810-3411-922f-b774b26171b6
+2025-08-26 08:18:44,955 INFO [main][GenericScope.java:295] - BeanFactory id=3ba6c044-8810-3411-922f-b774b26171b6
+2025-08-26 08:18:45,161 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 08:18:45,161 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 08:18:45,169 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:18:45,169 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:18:45,170 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 08:18:45,170 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 08:18:45,170 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 08:18:45,170 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 08:18:45,268 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 08:18:45,268 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 08:18:45,268 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 832 ms
+2025-08-26 08:18:45,268 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 832 ms
+2025-08-26 08:18:45,758 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 08:18:45,758 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 08:18:45,804 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:18:45,804 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:18:46,037 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:18:46,037 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:18:46,069 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 08:18:46,069 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 08:18:46,070 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 08:18:46,070 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 08:18:46,079 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 08:18:46,079 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 08:18:46,095 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 08:18:46,095 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 08:18:46,197 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.324 seconds (JVM running for 2.945)
+2025-08-26 08:18:46,197 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.324 seconds (JVM running for 2.945)
+2025-08-26 08:20:00,920 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:20:00,920 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:24:55,562 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 08:24:55,562 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 08:24:55,867 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 08:24:55,867 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 08:24:56,393 INFO [main][GenericScope.java:295] - BeanFactory id=3ba6c044-8810-3411-922f-b774b26171b6
+2025-08-26 08:24:56,393 INFO [main][GenericScope.java:295] - BeanFactory id=3ba6c044-8810-3411-922f-b774b26171b6
+2025-08-26 08:24:56,592 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 08:24:56,592 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 08:24:56,606 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:24:56,606 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:24:56,606 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 08:24:56,606 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 08:24:56,607 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 08:24:56,607 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 08:24:56,702 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 08:24:56,702 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 08:24:56,703 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 825 ms
+2025-08-26 08:24:56,703 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 825 ms
+2025-08-26 08:24:57,238 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 08:24:57,238 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 08:24:57,291 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:24:57,291 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:24:57,529 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:24:57,529 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:24:57,560 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 08:24:57,560 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 08:24:57,561 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 08:24:57,561 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 08:24:57,571 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 08:24:57,571 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 08:24:57,588 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 08:24:57,588 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 08:24:57,695 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.448 seconds (JVM running for 3.219)
+2025-08-26 08:24:57,695 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.448 seconds (JVM running for 3.219)
+2025-08-26 08:27:19,247 INFO [http-nio-63040-exec-4][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 08:27:19,247 INFO [http-nio-63040-exec-4][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 08:27:19,247 INFO [http-nio-63040-exec-4][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 08:27:19,247 INFO [http-nio-63040-exec-4][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 08:27:19,252 INFO [http-nio-63040-exec-4][FrameworkServlet.java:547] - Completed initialization in 5 ms
+2025-08-26 08:27:19,252 INFO [http-nio-63040-exec-4][FrameworkServlet.java:547] - Completed initialization in 5 ms
+2025-08-26 08:27:19,375 INFO [http-nio-63040-exec-4][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 08:27:19,375 INFO [http-nio-63040-exec-4][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 08:27:19,496 INFO [http-nio-63040-exec-4][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 08:27:19,496 INFO [http-nio-63040-exec-4][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 08:28:33,970 WARN [http-nio-63040-exec-8][AbstractHandlerExceptionResolver.java:199] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2025-08-26 08:28:33,970 WARN [http-nio-63040-exec-8][AbstractHandlerExceptionResolver.java:199] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2025-08-26 08:30:27,728 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:30:27,728 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:30:27,729 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 08:30:27,729 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 08:30:27,735 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 08:30:27,735 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 08:32:19,271 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 08:32:19,271 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 08:32:19,558 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 08:32:19,558 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 08:32:20,067 INFO [main][GenericScope.java:295] - BeanFactory id=3ba6c044-8810-3411-922f-b774b26171b6
+2025-08-26 08:32:20,067 INFO [main][GenericScope.java:295] - BeanFactory id=3ba6c044-8810-3411-922f-b774b26171b6
+2025-08-26 08:32:20,270 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 08:32:20,270 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 08:32:20,279 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:32:20,279 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:32:20,279 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 08:32:20,279 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 08:32:20,280 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 08:32:20,280 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 08:32:20,382 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 08:32:20,382 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 08:32:20,382 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 814 ms
+2025-08-26 08:32:20,382 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 814 ms
+2025-08-26 08:32:20,881 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 08:32:20,881 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 08:32:20,933 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:32:20,933 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:32:21,164 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:32:21,164 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:32:21,195 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 08:32:21,195 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 08:32:21,196 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 08:32:21,196 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 08:32:21,205 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 08:32:21,205 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 08:32:21,221 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 08:32:21,221 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 08:32:21,322 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.345 seconds (JVM running for 3.0)
+2025-08-26 08:32:21,322 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.345 seconds (JVM running for 3.0)
+2025-08-26 08:32:27,026 INFO [http-nio-63040-exec-1][DirectJDKLog.java:175] - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: The HTTP header line [{: ] does not conform to RFC 7230 and has been ignored.
+	at org.apache.coyote.http11.Http11InputBuffer.skipLine(Http11InputBuffer.java:1041)
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeader(Http11InputBuffer.java:893)
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeaders(Http11InputBuffer.java:593)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:284)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2025-08-26 08:32:27,026 INFO [http-nio-63040-exec-1][DirectJDKLog.java:175] - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: The HTTP header line [{: ] does not conform to RFC 7230 and has been ignored.
+	at org.apache.coyote.http11.Http11InputBuffer.skipLine(Http11InputBuffer.java:1041)
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeader(Http11InputBuffer.java:893)
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeaders(Http11InputBuffer.java:593)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:284)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2025-08-26 08:34:29,155 INFO [http-nio-63040-exec-8][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 08:34:29,155 INFO [http-nio-63040-exec-8][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 08:34:29,156 INFO [http-nio-63040-exec-8][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 08:34:29,156 INFO [http-nio-63040-exec-8][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 08:34:29,160 INFO [http-nio-63040-exec-8][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2025-08-26 08:34:29,160 INFO [http-nio-63040-exec-8][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2025-08-26 08:34:29,298 INFO [http-nio-63040-exec-8][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 08:34:29,298 INFO [http-nio-63040-exec-8][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 08:34:29,417 INFO [http-nio-63040-exec-8][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 08:34:29,417 INFO [http-nio-63040-exec-8][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 08:34:44,311 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:34:44,311 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:34:44,313 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 08:34:44,313 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 08:34:44,319 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 08:34:44,319 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 08:34:51,433 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 08:34:51,433 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 08:34:51,720 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 08:34:51,720 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 08:34:52,222 INFO [main][GenericScope.java:295] - BeanFactory id=3ba6c044-8810-3411-922f-b774b26171b6
+2025-08-26 08:34:52,222 INFO [main][GenericScope.java:295] - BeanFactory id=3ba6c044-8810-3411-922f-b774b26171b6
+2025-08-26 08:34:52,418 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 08:34:52,418 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 08:34:52,425 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:34:52,425 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:34:52,425 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 08:34:52,425 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 08:34:52,425 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 08:34:52,425 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 08:34:52,531 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 08:34:52,531 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 08:34:52,532 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 802 ms
+2025-08-26 08:34:52,532 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 802 ms
+2025-08-26 08:34:53,037 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 08:34:53,037 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 08:34:53,093 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:34:53,093 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:34:53,320 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:34:53,320 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:34:53,352 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 08:34:53,352 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 08:34:53,353 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 08:34:53,353 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 08:34:53,362 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 08:34:53,362 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 08:34:53,379 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 08:34:53,379 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 08:34:53,481 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.328 seconds (JVM running for 3.0)
+2025-08-26 08:34:53,481 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.328 seconds (JVM running for 3.0)
+2025-08-26 08:34:56,901 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 08:34:56,901 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 08:34:56,901 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 08:34:56,901 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 08:34:56,905 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2025-08-26 08:34:56,905 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2025-08-26 08:34:57,009 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 08:34:57,009 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 08:34:57,108 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 08:34:57,108 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 08:35:22,129 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:35:22,129 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:35:22,131 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 08:35:22,131 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 08:35:22,135 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 08:35:22,135 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 08:37:58,469 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 08:37:58,469 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 08:37:58,752 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 08:37:58,752 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 08:37:59,248 INFO [main][GenericScope.java:295] - BeanFactory id=3ba6c044-8810-3411-922f-b774b26171b6
+2025-08-26 08:37:59,248 INFO [main][GenericScope.java:295] - BeanFactory id=3ba6c044-8810-3411-922f-b774b26171b6
+2025-08-26 08:37:59,442 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 08:37:59,442 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 08:37:59,449 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:37:59,449 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:37:59,449 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 08:37:59,449 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 08:37:59,450 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 08:37:59,450 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 08:37:59,547 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 08:37:59,547 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 08:37:59,547 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 785 ms
+2025-08-26 08:37:59,547 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 785 ms
+2025-08-26 08:38:00,038 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 08:38:00,038 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 08:38:00,090 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:38:00,090 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:38:00,332 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:38:00,332 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 08:38:00,363 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 08:38:00,363 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 08:38:00,364 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 08:38:00,364 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 08:38:00,373 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 08:38:00,373 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 08:38:00,389 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 08:38:00,389 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 08:38:00,489 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.278 seconds (JVM running for 2.918)
+2025-08-26 08:38:00,489 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.278 seconds (JVM running for 2.918)
+2025-08-26 08:40:41,013 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 08:40:41,013 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 08:40:41,013 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 08:40:41,013 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 08:40:41,017 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2025-08-26 08:40:41,017 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2025-08-26 08:40:41,119 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 08:40:41,119 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 08:40:41,212 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 08:40:41,212 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 08:40:52,361 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:40:52,361 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 08:40:52,362 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 08:40:52,362 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 08:40:52,368 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 08:40:52,368 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
