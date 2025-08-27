@@ -1,0 +1,988 @@
+2025-08-26 22:27:39,319 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:27:39,319 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:27:39,790 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 22:27:39,790 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 22:27:40,556 INFO [main][GenericScope.java:295] - BeanFactory id=7ac1d31f-8984-3fac-bbab-e11a6014fcd8
+2025-08-26 22:27:40,556 INFO [main][GenericScope.java:295] - BeanFactory id=7ac1d31f-8984-3fac-bbab-e11a6014fcd8
+2025-08-26 22:27:40,836 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 22:27:40,836 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 22:27:40,846 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:27:40,846 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:27:40,847 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 22:27:40,847 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 22:27:40,847 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 22:27:40,847 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 22:27:40,984 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 22:27:40,984 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 22:27:40,984 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1178 ms
+2025-08-26 22:27:40,984 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1178 ms
+2025-08-26 22:27:41,991 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 22:27:41,991 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 22:27:42,058 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:27:42,058 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:27:42,318 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:27:42,318 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:27:42,365 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 22:27:42,365 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 22:27:42,366 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 22:27:42,366 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 22:27:42,378 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 22:27:42,378 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 22:27:42,404 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 22:27:42,404 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 22:27:42,617 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 3.769 seconds (JVM running for 4.98)
+2025-08-26 22:27:42,617 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 3.769 seconds (JVM running for 4.98)
+2025-08-26 22:27:43,075 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 22:27:43,075 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 22:27:43,075 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 22:27:43,075 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 22:27:43,081 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 6 ms
+2025-08-26 22:27:43,081 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 6 ms
+2025-08-26 22:27:43,128 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 22:27:43,128 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 22:27:43,279 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 22:27:43,279 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 22:28:14,072 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:28:14,072 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:28:14,074 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 22:28:14,074 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 22:28:14,084 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 22:28:14,084 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 22:37:23,127 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:37:23,127 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:37:23,424 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 22:37:23,424 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 22:37:23,959 INFO [main][GenericScope.java:295] - BeanFactory id=7ac1d31f-8984-3fac-bbab-e11a6014fcd8
+2025-08-26 22:37:23,959 INFO [main][GenericScope.java:295] - BeanFactory id=7ac1d31f-8984-3fac-bbab-e11a6014fcd8
+2025-08-26 22:37:24,150 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 22:37:24,150 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 22:37:24,156 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:37:24,156 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:37:24,157 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 22:37:24,157 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 22:37:24,157 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 22:37:24,157 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 22:37:24,254 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 22:37:24,254 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 22:37:24,255 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 821 ms
+2025-08-26 22:37:24,255 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 821 ms
+2025-08-26 22:37:24,819 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 22:37:24,819 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 22:37:24,868 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:37:24,868 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:37:25,054 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:37:25,054 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:37:25,086 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 22:37:25,086 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 22:37:25,087 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 22:37:25,087 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 22:37:25,096 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 22:37:25,096 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 22:37:25,116 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 22:37:25,116 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 22:37:25,246 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.402 seconds (JVM running for 3.051)
+2025-08-26 22:37:25,246 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.402 seconds (JVM running for 3.051)
+2025-08-26 22:37:33,830 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 22:37:33,830 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 22:37:33,831 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 22:37:33,831 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 22:37:33,836 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2025-08-26 22:37:33,836 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2025-08-26 22:37:33,934 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 22:37:33,934 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 22:37:34,045 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 22:37:34,045 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 22:38:43,678 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:38:43,678 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:38:43,679 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 22:38:43,679 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 22:38:43,683 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 22:38:43,683 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 22:39:21,248 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:39:21,248 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:39:21,545 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 22:39:21,545 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 22:39:22,155 INFO [main][GenericScope.java:295] - BeanFactory id=7ac1d31f-8984-3fac-bbab-e11a6014fcd8
+2025-08-26 22:39:22,155 INFO [main][GenericScope.java:295] - BeanFactory id=7ac1d31f-8984-3fac-bbab-e11a6014fcd8
+2025-08-26 22:39:22,387 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 22:39:22,387 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 22:39:22,396 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:39:22,396 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:39:22,396 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 22:39:22,396 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 22:39:22,397 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 22:39:22,397 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 22:39:22,517 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 22:39:22,517 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 22:39:22,517 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 961 ms
+2025-08-26 22:39:22,517 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 961 ms
+2025-08-26 22:39:23,175 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 22:39:23,175 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 22:39:23,183 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-08-26 22:39:23,183 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-08-26 22:39:23,188 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:39:23,188 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:39:23,192 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-08-26 22:39:23,192 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-08-26 22:39:23,193 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-08-26 22:39:23,193 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-08-26 22:39:23,194 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-08-26 22:39:23,194 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-08-26 22:39:23,194 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-08-26 22:39:23,194 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-08-26 22:39:23,197 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-08-26 22:39:23,197 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-08-26 22:39:23,218 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-08-26 22:39:23,218 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-08-26 22:39:23,232 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:39:23,232 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:39:23,303 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-08-26 22:39:23,303 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-08-26 22:39:23,308 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-08-26 22:39:23,308 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-08-26 22:39:23,308 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-08-26 22:39:23,308 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-08-26 22:39:23,308 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-08-26 22:39:23,308 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-08-26 22:39:23,309 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-08-26 22:39:23,309 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-08-26 22:39:23,309 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-08-26 22:39:23,309 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-08-26 22:39:23,442 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:39:23,442 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:39:23,477 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 22:39:23,477 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 22:39:23,478 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 22:39:23,478 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 22:39:23,488 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 22:39:23,488 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 22:39:23,499 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 22:39:23,499 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 22:39:23,509 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 22:39:23,509 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 22:39:23,656 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.688 seconds (JVM running for 3.354)
+2025-08-26 22:39:23,656 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.688 seconds (JVM running for 3.354)
+2025-08-26 22:39:23,974 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-08-26 22:39:23,974 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-08-26 22:39:24,060 INFO [main][GenericScope.java:295] - BeanFactory id=5c3268bc-95bd-33e0-9247-a69776be35cb
+2025-08-26 22:39:24,060 INFO [main][GenericScope.java:295] - BeanFactory id=5c3268bc-95bd-33e0-9247-a69776be35cb
+2025-08-26 22:39:24,280 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2025-08-26 22:39:24,280 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2025-08-26 22:39:24,288 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2025-08-26 22:39:24,288 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2025-08-26 22:39:24,288 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 22:39:24,288 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 22:39:24,289 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 22:39:24,289 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 22:39:24,387 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 22:39:24,387 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 22:39:24,387 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 877 ms
+2025-08-26 22:39:24,387 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 877 ms
+2025-08-26 22:39:24,472 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1
+2025-08-26 22:39:24,472 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1
+2025-08-26 22:39:24,514 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@5d9d2119'
+2025-08-26 22:39:24,514 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@5d9d2119'
+2025-08-26 22:39:24,515 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2025-08-26 22:39:24,515 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2025-08-26 22:39:24,645 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
+2025-08-26 22:39:24,645 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
+2025-08-26 22:39:24,649 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
+2025-08-26 22:39:24,649 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
+2025-08-26 22:39:24,650 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
+2025-08-26 22:39:24,650 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
+2025-08-26 22:39:24,665 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
+2025-08-26 22:39:24,665 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
+2025-08-26 22:39:24,667 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
+2025-08-26 22:39:24,667 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
+2025-08-26 22:39:24,670 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
+2025-08-26 22:39:24,670 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
+2025-08-26 22:39:24,671 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
+2025-08-26 22:39:24,671 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
+2025-08-26 22:39:24,672 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
+2025-08-26 22:39:24,672 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
+2025-08-26 22:39:24,673 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
+2025-08-26 22:39:24,673 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
+2025-08-26 22:39:24,674 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
+2025-08-26 22:39:24,674 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
+2025-08-26 22:39:24,676 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
+2025-08-26 22:39:24,676 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
+2025-08-26 22:39:24,677 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
+2025-08-26 22:39:24,677 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
+2025-08-26 22:39:24,678 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
+2025-08-26 22:39:24,678 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
+2025-08-26 22:39:24,680 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
+2025-08-26 22:39:24,680 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
+2025-08-26 22:39:24,681 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
+2025-08-26 22:39:24,681 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
+2025-08-26 22:39:24,683 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
+2025-08-26 22:39:24,683 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
+2025-08-26 22:39:24,684 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
+2025-08-26 22:39:24,684 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
+2025-08-26 22:39:24,912 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 22:39:24,912 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 22:39:24,937 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-08-26 22:39:24,937 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-08-26 22:39:24,938 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-08-26 22:39:24,938 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-08-26 22:39:24,938 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-08-26 22:39:24,938 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-08-26 22:39:24,938 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2025-08-26 22:39:24,938 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2025-08-26 22:39:24,939 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-08-26 22:39:24,939 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-08-26 22:39:24,939 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2025-08-26 22:39:24,939 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2025-08-26 22:39:24,939 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-08-26 22:39:24,939 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-08-26 22:39:24,940 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-08-26 22:39:24,940 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-08-26 22:39:24,940 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-08-26 22:39:24,940 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-08-26 22:39:24,941 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-08-26 22:39:24,941 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-08-26 22:39:24,942 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-08-26 22:39:24,942 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-08-26 22:39:24,942 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-08-26 22:39:24,942 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-08-26 22:39:24,942 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-08-26 22:39:24,942 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-08-26 22:39:24,942 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-08-26 22:39:24,942 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-08-26 22:39:24,942 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-08-26 22:39:24,942 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-08-26 22:39:24,942 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-08-26 22:39:24,942 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-08-26 22:39:24,988 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:39:24,988 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:39:25,069 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2025-08-26 22:39:25,069 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2025-08-26 22:39:25,110 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
+2025-08-26 22:39:25,110 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
+2025-08-26 22:39:25,144 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2025-08-26 22:39:25,144 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2025-08-26 22:39:25,146 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 22:39:25,146 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 22:39:25,155 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 22:39:25,155 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 22:39:25,173 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 22:39:25,173 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 22:39:25,254 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 2.38 seconds (JVM running for 3.073)
+2025-08-26 22:39:25,254 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 2.38 seconds (JVM running for 3.073)
+2025-08-26 22:40:05,259 INFO [http-nio-63110-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 22:40:05,259 INFO [http-nio-63110-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 22:40:05,260 INFO [http-nio-63110-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 22:40:05,260 INFO [http-nio-63110-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 22:40:05,264 INFO [http-nio-63110-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2025-08-26 22:40:05,264 INFO [http-nio-63110-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2025-08-26 22:40:05,323 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2025-08-26 22:40:05,323 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2025-08-26 22:40:05,324 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - allowPoolSuspension.............false
+2025-08-26 22:40:05,324 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - allowPoolSuspension.............false
+2025-08-26 22:40:05,325 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - autoCommit......................true
+2025-08-26 22:40:05,325 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - autoCommit......................true
+2025-08-26 22:40:05,325 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - catalog.........................none
+2025-08-26 22:40:05,325 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - catalog.........................none
+2025-08-26 22:40:05,325 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionInitSql...............none
+2025-08-26 22:40:05,325 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionInitSql...............none
+2025-08-26 22:40:05,325 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionTestQuery.............none
+2025-08-26 22:40:05,325 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionTestQuery.............none
+2025-08-26 22:40:05,326 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionTimeout...............30000
+2025-08-26 22:40:05,326 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionTimeout...............30000
+2025-08-26 22:40:05,326 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSource......................none
+2025-08-26 22:40:05,326 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSource......................none
+2025-08-26 22:40:05,326 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceClassName.............none
+2025-08-26 22:40:05,326 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceClassName.............none
+2025-08-26 22:40:05,327 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceJNDI..................none
+2025-08-26 22:40:05,327 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceJNDI..................none
+2025-08-26 22:40:05,327 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2025-08-26 22:40:05,327 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2025-08-26 22:40:05,327 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2025-08-26 22:40:05,327 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2025-08-26 22:40:05,328 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2025-08-26 22:40:05,328 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2025-08-26 22:40:05,328 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - healthCheckProperties...........{}
+2025-08-26 22:40:05,328 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - healthCheckProperties...........{}
+2025-08-26 22:40:05,328 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - healthCheckRegistry.............none
+2025-08-26 22:40:05,328 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - healthCheckRegistry.............none
+2025-08-26 22:40:05,328 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - idleTimeout.....................600000
+2025-08-26 22:40:05,328 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - idleTimeout.....................600000
+2025-08-26 22:40:05,328 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - initializationFailTimeout.......1
+2025-08-26 22:40:05,328 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - initializationFailTimeout.......1
+2025-08-26 22:40:05,329 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - isolateInternalQueries..........false
+2025-08-26 22:40:05,329 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - isolateInternalQueries..........false
+2025-08-26 22:40:05,329 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xcplus_system?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2025-08-26 22:40:05,329 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xcplus_system?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2025-08-26 22:40:05,329 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2025-08-26 22:40:05,329 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2025-08-26 22:40:05,329 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - maxLifetime.....................1800000
+2025-08-26 22:40:05,329 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - maxLifetime.....................1800000
+2025-08-26 22:40:05,330 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - maximumPoolSize.................10
+2025-08-26 22:40:05,330 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - maximumPoolSize.................10
+2025-08-26 22:40:05,330 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - metricRegistry..................none
+2025-08-26 22:40:05,330 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - metricRegistry..................none
+2025-08-26 22:40:05,330 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2025-08-26 22:40:05,330 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2025-08-26 22:40:05,330 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - minimumIdle.....................10
+2025-08-26 22:40:05,330 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - minimumIdle.....................10
+2025-08-26 22:40:05,330 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - password........................<masked>
+2025-08-26 22:40:05,330 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - password........................<masked>
+2025-08-26 22:40:05,331 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2025-08-26 22:40:05,331 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2025-08-26 22:40:05,331 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - readOnly........................false
+2025-08-26 22:40:05,331 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - readOnly........................false
+2025-08-26 22:40:05,331 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - registerMbeans..................false
+2025-08-26 22:40:05,331 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - registerMbeans..................false
+2025-08-26 22:40:05,331 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - scheduledExecutor...............none
+2025-08-26 22:40:05,331 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - scheduledExecutor...............none
+2025-08-26 22:40:05,331 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - schema..........................none
+2025-08-26 22:40:05,331 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - schema..........................none
+2025-08-26 22:40:05,331 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - threadFactory...................internal
+2025-08-26 22:40:05,331 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - threadFactory...................internal
+2025-08-26 22:40:05,332 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - transactionIsolation............default
+2025-08-26 22:40:05,332 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - transactionIsolation............default
+2025-08-26 22:40:05,332 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - username........................"root"
+2025-08-26 22:40:05,332 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - username........................"root"
+2025-08-26 22:40:05,332 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - validationTimeout...............5000
+2025-08-26 22:40:05,332 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - validationTimeout...............5000
+2025-08-26 22:40:05,332 INFO [http-nio-63110-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 22:40:05,332 INFO [http-nio-63110-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 22:40:05,438 DEBUG [http-nio-63110-exec-1][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30d2dc0f
+2025-08-26 22:40:05,438 DEBUG [http-nio-63110-exec-1][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30d2dc0f
+2025-08-26 22:40:05,439 INFO [http-nio-63110-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 22:40:05,439 INFO [http-nio-63110-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 22:40:05,445 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,code,item_values FROM dictionary
+2025-08-26 22:40:05,445 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,code,item_values FROM dictionary
+2025-08-26 22:40:05,461 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 
+2025-08-26 22:40:05,461 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 
+2025-08-26 22:40:05,481 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - <==      Total: 17
+2025-08-26 22:40:05,481 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - <==      Total: 17
+2025-08-26 22:40:05,541 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2025-08-26 22:40:05,541 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2025-08-26 22:40:05,549 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cb74b85
+2025-08-26 22:40:05,549 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cb74b85
+2025-08-26 22:40:05,557 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d8a41be
+2025-08-26 22:40:05,557 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d8a41be
+2025-08-26 22:40:05,564 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cadc971
+2025-08-26 22:40:05,564 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cadc971
+2025-08-26 22:40:05,573 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@da5bef1
+2025-08-26 22:40:05,573 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@da5bef1
+2025-08-26 22:40:05,581 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77afb627
+2025-08-26 22:40:05,581 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77afb627
+2025-08-26 22:40:05,589 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9eb47fd
+2025-08-26 22:40:05,589 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9eb47fd
+2025-08-26 22:40:05,597 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ed4ab10
+2025-08-26 22:40:05,597 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ed4ab10
+2025-08-26 22:40:05,604 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d9a8bbc
+2025-08-26 22:40:05,604 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d9a8bbc
+2025-08-26 22:40:05,610 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33196a4
+2025-08-26 22:40:05,610 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33196a4
+2025-08-26 22:40:05,610 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:40:05,610 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:40:05,676 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 22:40:05,676 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 22:40:05,677 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 22:40:05,677 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 22:40:05,683 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 6 ms
+2025-08-26 22:40:05,683 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 6 ms
+2025-08-26 22:40:05,789 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 22:40:05,789 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 22:40:05,895 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 22:40:05,895 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 22:40:35,544 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:40:35,544 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:40:35,544 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:40:35,544 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:41:05,547 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:41:05,547 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:41:05,547 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:41:05,547 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:41:35,554 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:41:35,554 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:41:35,554 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:41:35,554 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:42:05,556 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:42:05,556 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:42:05,556 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:42:05,556 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:42:35,570 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:42:35,570 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:42:35,570 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:42:35,570 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:43:05,580 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:43:05,580 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:43:05,580 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:43:05,580 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:43:35,590 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:43:35,590 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:43:35,590 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:43:35,590 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:44:05,597 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:44:05,597 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:44:05,597 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:44:05,597 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:44:35,610 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:44:35,610 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:44:35,611 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:44:35,611 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:45:05,612 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:45:05,612 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:45:05,612 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:45:05,612 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:45:35,613 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:45:35,613 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:45:35,614 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:45:35,614 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:46:05,621 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:46:05,621 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:46:05,621 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:46:05,621 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:46:35,634 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:46:35,634 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:46:35,634 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:46:35,634 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:47:05,642 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:47:05,642 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:47:05,642 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:47:05,642 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:47:35,649 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:47:35,649 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:47:35,649 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:47:35,649 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:48:05,658 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:48:05,658 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:48:05,658 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:48:05,658 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:48:35,665 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:48:35,665 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:48:35,665 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:48:35,665 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:49:05,670 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:49:05,670 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:49:05,670 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:49:05,670 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:49:35,674 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:49:35,674 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:49:35,674 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:49:35,674 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:50:05,681 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:50:05,681 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:50:05,681 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:50:05,681 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:50:35,682 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:50:35,682 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:50:35,682 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:50:35,682 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:51:05,693 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:51:05,693 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:51:05,693 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:51:05,693 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:51:35,704 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:51:35,704 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:51:35,705 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:51:35,705 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:52:05,712 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:52:05,712 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:52:05,712 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:52:05,712 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:52:30,237 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:52:30,237 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:52:30,239 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 22:52:30,239 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 22:52:30,246 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 22:52:30,246 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 22:52:32,291 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:52:32,291 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:52:34,448 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:52:34,448 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:52:34,727 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 22:52:34,727 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 22:52:35,261 INFO [main][GenericScope.java:295] - BeanFactory id=7ac1d31f-8984-3fac-bbab-e11a6014fcd8
+2025-08-26 22:52:35,261 INFO [main][GenericScope.java:295] - BeanFactory id=7ac1d31f-8984-3fac-bbab-e11a6014fcd8
+2025-08-26 22:52:35,463 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 22:52:35,463 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 22:52:35,471 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:52:35,471 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:52:35,471 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 22:52:35,471 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 22:52:35,472 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 22:52:35,472 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 22:52:35,574 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 22:52:35,574 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 22:52:35,575 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 839 ms
+2025-08-26 22:52:35,575 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 839 ms
+2025-08-26 22:52:35,720 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:52:35,720 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:52:35,720 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:52:35,720 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:52:36,219 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 22:52:36,219 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 22:52:36,274 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:52:36,274 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:52:36,488 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:52:36,488 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:52:36,528 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 22:52:36,528 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 22:52:36,529 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 22:52:36,529 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 22:52:36,540 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 22:52:36,540 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 22:52:36,562 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 22:52:36,562 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 22:52:36,710 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.534 seconds (JVM running for 3.168)
+2025-08-26 22:52:36,710 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.534 seconds (JVM running for 3.168)
+2025-08-26 22:52:41,472 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2025-08-26 22:52:41,472 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2025-08-26 22:52:41,473 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:52:41,473 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:52:41,475 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 22:52:41,475 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 22:52:41,475 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:52:41,475 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:52:41,476 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@30d2dc0f: (connection evicted)
+2025-08-26 22:52:41,476 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@30d2dc0f: (connection evicted)
+2025-08-26 22:52:41,479 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2cb74b85: (connection evicted)
+2025-08-26 22:52:41,479 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2cb74b85: (connection evicted)
+2025-08-26 22:52:41,479 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6d8a41be: (connection evicted)
+2025-08-26 22:52:41,479 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6d8a41be: (connection evicted)
+2025-08-26 22:52:41,480 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5cadc971: (connection evicted)
+2025-08-26 22:52:41,480 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5cadc971: (connection evicted)
+2025-08-26 22:52:41,480 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@da5bef1: (connection evicted)
+2025-08-26 22:52:41,480 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@da5bef1: (connection evicted)
+2025-08-26 22:52:41,480 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@77afb627: (connection evicted)
+2025-08-26 22:52:41,480 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@77afb627: (connection evicted)
+2025-08-26 22:52:41,480 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@9eb47fd: (connection evicted)
+2025-08-26 22:52:41,480 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@9eb47fd: (connection evicted)
+2025-08-26 22:52:41,480 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1ed4ab10: (connection evicted)
+2025-08-26 22:52:41,480 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1ed4ab10: (connection evicted)
+2025-08-26 22:52:41,480 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2d9a8bbc: (connection evicted)
+2025-08-26 22:52:41,480 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2d9a8bbc: (connection evicted)
+2025-08-26 22:52:41,481 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@33196a4: (connection evicted)
+2025-08-26 22:52:41,481 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@33196a4: (connection evicted)
+2025-08-26 22:52:41,481 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-08-26 22:52:41,481 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-08-26 22:52:41,481 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 22:52:41,481 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 22:52:43,677 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-08-26 22:52:43,677 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-08-26 22:52:43,681 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:52:43,681 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:52:43,685 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-08-26 22:52:43,685 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-08-26 22:52:43,686 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-08-26 22:52:43,686 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-08-26 22:52:43,687 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-08-26 22:52:43,687 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-08-26 22:52:43,687 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-08-26 22:52:43,687 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-08-26 22:52:43,689 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-08-26 22:52:43,689 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-08-26 22:52:43,706 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-08-26 22:52:43,706 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-08-26 22:52:43,771 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-08-26 22:52:43,771 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-08-26 22:52:43,774 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-08-26 22:52:43,774 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-08-26 22:52:43,774 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-08-26 22:52:43,774 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-08-26 22:52:43,775 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-08-26 22:52:43,775 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-08-26 22:52:43,775 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-08-26 22:52:43,775 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-08-26 22:52:43,775 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-08-26 22:52:43,775 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-08-26 22:52:43,922 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:52:43,922 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:52:43,958 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 22:52:43,958 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 22:52:44,419 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-08-26 22:52:44,419 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-08-26 22:52:44,480 INFO [main][GenericScope.java:295] - BeanFactory id=5c3268bc-95bd-33e0-9247-a69776be35cb
+2025-08-26 22:52:44,480 INFO [main][GenericScope.java:295] - BeanFactory id=5c3268bc-95bd-33e0-9247-a69776be35cb
+2025-08-26 22:52:44,700 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2025-08-26 22:52:44,700 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2025-08-26 22:52:44,708 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2025-08-26 22:52:44,708 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2025-08-26 22:52:44,709 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 22:52:44,709 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 22:52:44,709 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 22:52:44,709 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 22:52:44,819 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 22:52:44,819 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 22:52:44,820 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 851 ms
+2025-08-26 22:52:44,820 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 851 ms
+2025-08-26 22:52:44,921 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1
+2025-08-26 22:52:44,921 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1
+2025-08-26 22:52:44,966 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@5a4464c5'
+2025-08-26 22:52:44,966 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@5a4464c5'
+2025-08-26 22:52:44,967 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2025-08-26 22:52:44,967 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2025-08-26 22:52:45,088 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
+2025-08-26 22:52:45,088 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
+2025-08-26 22:52:45,091 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
+2025-08-26 22:52:45,091 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
+2025-08-26 22:52:45,094 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
+2025-08-26 22:52:45,094 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
+2025-08-26 22:52:45,109 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
+2025-08-26 22:52:45,109 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
+2025-08-26 22:52:45,111 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
+2025-08-26 22:52:45,111 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
+2025-08-26 22:52:45,114 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
+2025-08-26 22:52:45,114 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
+2025-08-26 22:52:45,115 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
+2025-08-26 22:52:45,115 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
+2025-08-26 22:52:45,116 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
+2025-08-26 22:52:45,116 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
+2025-08-26 22:52:45,117 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
+2025-08-26 22:52:45,117 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
+2025-08-26 22:52:45,118 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
+2025-08-26 22:52:45,118 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
+2025-08-26 22:52:45,119 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
+2025-08-26 22:52:45,119 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
+2025-08-26 22:52:45,121 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
+2025-08-26 22:52:45,121 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
+2025-08-26 22:52:45,122 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
+2025-08-26 22:52:45,122 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
+2025-08-26 22:52:45,124 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
+2025-08-26 22:52:45,124 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
+2025-08-26 22:52:45,125 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
+2025-08-26 22:52:45,125 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
+2025-08-26 22:52:45,127 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
+2025-08-26 22:52:45,127 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
+2025-08-26 22:52:45,128 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
+2025-08-26 22:52:45,128 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
+2025-08-26 22:52:45,383 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 22:52:45,383 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 22:52:45,412 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-08-26 22:52:45,412 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-08-26 22:52:45,413 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-08-26 22:52:45,413 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-08-26 22:52:45,414 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-08-26 22:52:45,414 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-08-26 22:52:45,414 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2025-08-26 22:52:45,414 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2025-08-26 22:52:45,415 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-08-26 22:52:45,415 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-08-26 22:52:45,415 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2025-08-26 22:52:45,415 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2025-08-26 22:52:45,416 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-08-26 22:52:45,416 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-08-26 22:52:45,416 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-08-26 22:52:45,416 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-08-26 22:52:45,416 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-08-26 22:52:45,416 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-08-26 22:52:45,417 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-08-26 22:52:45,417 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-08-26 22:52:45,418 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-08-26 22:52:45,418 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-08-26 22:52:45,418 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-08-26 22:52:45,418 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-08-26 22:52:45,419 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-08-26 22:52:45,419 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-08-26 22:52:45,419 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-08-26 22:52:45,419 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-08-26 22:52:45,419 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-08-26 22:52:45,419 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-08-26 22:52:45,419 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-08-26 22:52:45,419 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-08-26 22:52:45,472 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:52:45,472 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:52:45,579 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2025-08-26 22:52:45,579 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2025-08-26 22:52:45,625 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
+2025-08-26 22:52:45,625 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
+2025-08-26 22:52:45,661 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2025-08-26 22:52:45,661 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2025-08-26 22:52:45,662 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 22:52:45,662 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 22:52:45,671 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 22:52:45,671 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 22:52:45,689 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 22:52:45,689 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 22:52:45,775 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 2.359 seconds (JVM running for 3.01)
+2025-08-26 22:52:45,775 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 2.359 seconds (JVM running for 3.01)
+2025-08-26 22:52:46,197 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:52:46,197 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:52:46,477 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 22:52:46,477 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 22:52:47,020 INFO [main][GenericScope.java:295] - BeanFactory id=7ac1d31f-8984-3fac-bbab-e11a6014fcd8
+2025-08-26 22:52:47,020 INFO [main][GenericScope.java:295] - BeanFactory id=7ac1d31f-8984-3fac-bbab-e11a6014fcd8
+2025-08-26 22:52:47,215 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 22:52:47,215 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 22:52:47,221 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:52:47,221 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:52:47,221 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 22:52:47,221 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 22:52:47,221 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 22:52:47,221 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 22:52:47,324 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 22:52:47,324 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 22:52:47,324 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 830 ms
+2025-08-26 22:52:47,324 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 830 ms
+2025-08-26 22:52:47,891 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 22:52:47,891 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 22:52:47,937 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:52:47,937 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:52:48,115 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:52:48,115 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:52:48,148 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 22:52:48,148 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 22:52:48,149 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 22:52:48,149 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 22:52:48,158 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 22:52:48,158 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 22:52:48,177 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 22:52:48,177 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 22:52:48,307 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.389 seconds (JVM running for 3.054)
+2025-08-26 22:52:48,307 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.389 seconds (JVM running for 3.054)
+2025-08-26 22:52:54,018 INFO [http-nio-63110-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 22:52:54,018 INFO [http-nio-63110-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 22:52:54,018 INFO [http-nio-63110-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 22:52:54,018 INFO [http-nio-63110-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 22:52:54,022 INFO [http-nio-63110-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2025-08-26 22:52:54,022 INFO [http-nio-63110-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2025-08-26 22:52:54,077 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2025-08-26 22:52:54,077 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2025-08-26 22:52:54,078 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - allowPoolSuspension.............false
+2025-08-26 22:52:54,078 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - allowPoolSuspension.............false
+2025-08-26 22:52:54,078 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - autoCommit......................true
+2025-08-26 22:52:54,078 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - autoCommit......................true
+2025-08-26 22:52:54,078 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - catalog.........................none
+2025-08-26 22:52:54,078 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - catalog.........................none
+2025-08-26 22:52:54,078 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionInitSql...............none
+2025-08-26 22:52:54,078 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionInitSql...............none
+2025-08-26 22:52:54,079 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionTestQuery.............none
+2025-08-26 22:52:54,079 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionTestQuery.............none
+2025-08-26 22:52:54,080 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionTimeout...............30000
+2025-08-26 22:52:54,080 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionTimeout...............30000
+2025-08-26 22:52:54,080 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSource......................none
+2025-08-26 22:52:54,080 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSource......................none
+2025-08-26 22:52:54,080 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceClassName.............none
+2025-08-26 22:52:54,080 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceClassName.............none
+2025-08-26 22:52:54,080 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceJNDI..................none
+2025-08-26 22:52:54,080 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceJNDI..................none
+2025-08-26 22:52:54,081 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2025-08-26 22:52:54,081 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2025-08-26 22:52:54,081 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2025-08-26 22:52:54,081 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2025-08-26 22:52:54,081 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2025-08-26 22:52:54,081 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2025-08-26 22:52:54,081 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - healthCheckProperties...........{}
+2025-08-26 22:52:54,081 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - healthCheckProperties...........{}
+2025-08-26 22:52:54,082 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - healthCheckRegistry.............none
+2025-08-26 22:52:54,082 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - healthCheckRegistry.............none
+2025-08-26 22:52:54,082 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - idleTimeout.....................600000
+2025-08-26 22:52:54,082 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - idleTimeout.....................600000
+2025-08-26 22:52:54,082 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - initializationFailTimeout.......1
+2025-08-26 22:52:54,082 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - initializationFailTimeout.......1
+2025-08-26 22:52:54,082 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - isolateInternalQueries..........false
+2025-08-26 22:52:54,082 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - isolateInternalQueries..........false
+2025-08-26 22:52:54,083 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xcplus_system?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2025-08-26 22:52:54,083 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xcplus_system?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2025-08-26 22:52:54,083 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2025-08-26 22:52:54,083 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2025-08-26 22:52:54,083 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - maxLifetime.....................1800000
+2025-08-26 22:52:54,083 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - maxLifetime.....................1800000
+2025-08-26 22:52:54,084 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - maximumPoolSize.................10
+2025-08-26 22:52:54,084 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - maximumPoolSize.................10
+2025-08-26 22:52:54,084 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - metricRegistry..................none
+2025-08-26 22:52:54,084 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - metricRegistry..................none
+2025-08-26 22:52:54,084 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2025-08-26 22:52:54,084 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2025-08-26 22:52:54,084 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - minimumIdle.....................10
+2025-08-26 22:52:54,084 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - minimumIdle.....................10
+2025-08-26 22:52:54,085 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - password........................<masked>
+2025-08-26 22:52:54,085 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - password........................<masked>
+2025-08-26 22:52:54,085 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2025-08-26 22:52:54,085 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2025-08-26 22:52:54,085 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - readOnly........................false
+2025-08-26 22:52:54,085 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - readOnly........................false
+2025-08-26 22:52:54,085 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - registerMbeans..................false
+2025-08-26 22:52:54,085 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - registerMbeans..................false
+2025-08-26 22:52:54,085 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - scheduledExecutor...............none
+2025-08-26 22:52:54,085 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - scheduledExecutor...............none
+2025-08-26 22:52:54,086 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - schema..........................none
+2025-08-26 22:52:54,086 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - schema..........................none
+2025-08-26 22:52:54,086 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - threadFactory...................internal
+2025-08-26 22:52:54,086 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - threadFactory...................internal
+2025-08-26 22:52:54,086 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - transactionIsolation............default
+2025-08-26 22:52:54,086 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - transactionIsolation............default
+2025-08-26 22:52:54,086 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - username........................"root"
+2025-08-26 22:52:54,086 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - username........................"root"
+2025-08-26 22:52:54,086 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - validationTimeout...............5000
+2025-08-26 22:52:54,086 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - validationTimeout...............5000
+2025-08-26 22:52:54,086 INFO [http-nio-63110-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 22:52:54,086 INFO [http-nio-63110-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 22:52:54,200 DEBUG [http-nio-63110-exec-1][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3188c39b
+2025-08-26 22:52:54,200 DEBUG [http-nio-63110-exec-1][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3188c39b
+2025-08-26 22:52:54,202 INFO [http-nio-63110-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 22:52:54,202 INFO [http-nio-63110-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 22:52:54,207 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,code,item_values FROM dictionary
+2025-08-26 22:52:54,207 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,code,item_values FROM dictionary
+2025-08-26 22:52:54,221 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 
+2025-08-26 22:52:54,221 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 
+2025-08-26 22:52:54,239 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - <==      Total: 17
+2025-08-26 22:52:54,239 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - <==      Total: 17
+2025-08-26 22:52:54,305 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2025-08-26 22:52:54,305 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2025-08-26 22:52:54,313 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71655b38
+2025-08-26 22:52:54,313 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71655b38
+2025-08-26 22:52:54,320 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30585103
+2025-08-26 22:52:54,320 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30585103
+2025-08-26 22:52:54,329 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1224615
+2025-08-26 22:52:54,329 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1224615
+2025-08-26 22:52:54,336 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5077ae4c
+2025-08-26 22:52:54,336 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5077ae4c
+2025-08-26 22:52:54,343 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3215546f
+2025-08-26 22:52:54,343 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3215546f
+2025-08-26 22:52:54,351 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5439129a
+2025-08-26 22:52:54,351 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5439129a
+2025-08-26 22:52:54,360 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48e2f56d
+2025-08-26 22:52:54,360 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48e2f56d
+2025-08-26 22:52:54,368 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63c462ab
+2025-08-26 22:52:54,368 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63c462ab
+2025-08-26 22:52:54,376 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f04085b
+2025-08-26 22:52:54,376 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f04085b
+2025-08-26 22:52:54,377 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:52:54,377 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:52:54,389 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 22:52:54,389 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 22:52:54,389 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 22:52:54,389 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 22:52:54,393 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 3 ms
+2025-08-26 22:52:54,393 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 3 ms
+2025-08-26 22:52:54,501 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 22:52:54,501 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-08-26 22:52:54,606 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 22:52:54,606 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-08-26 22:53:24,312 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:53:24,312 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:53:24,312 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:53:24,312 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:53:54,322 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:53:54,322 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:53:54,323 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:53:54,323 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:54:24,325 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:54:24,325 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:54:24,325 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:54:24,325 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:54:54,341 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:54:54,341 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:54:54,341 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:54:54,341 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:55:24,345 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:55:24,345 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:55:24,345 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:55:24,345 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:55:54,350 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:55:54,350 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:55:54,350 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:55:54,350 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:56:24,359 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:56:24,359 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:56:24,359 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:56:24,359 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:56:54,372 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:56:54,372 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:56:54,372 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:56:54,372 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:57:24,387 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:57:24,387 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:57:24,387 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:57:24,387 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:57:54,391 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:57:54,391 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:57:54,391 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:57:54,391 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:58:24,399 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:58:24,399 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:58:24,400 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:58:24,400 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:58:54,403 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:58:54,403 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:58:54,403 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:58:54,403 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:59:10,401 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:59:10,401 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:59:10,404 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 22:59:10,404 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 22:59:10,411 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 22:59:10,411 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 22:59:12,512 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:59:12,512 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 22:59:12,796 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 22:59:12,796 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 22:59:13,324 INFO [main][GenericScope.java:295] - BeanFactory id=7ac1d31f-8984-3fac-bbab-e11a6014fcd8
+2025-08-26 22:59:13,324 INFO [main][GenericScope.java:295] - BeanFactory id=7ac1d31f-8984-3fac-bbab-e11a6014fcd8
+2025-08-26 22:59:13,540 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 22:59:13,540 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 22:59:13,548 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:59:13,548 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:59:13,548 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 22:59:13,548 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 22:59:13,549 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 22:59:13,549 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 22:59:13,666 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 22:59:13,666 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 22:59:13,666 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 860 ms
+2025-08-26 22:59:13,666 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 860 ms
+2025-08-26 22:59:14,251 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 22:59:14,251 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 22:59:14,300 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:59:14,300 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:59:14,491 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:59:14,491 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 22:59:14,525 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 22:59:14,525 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 22:59:14,526 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 22:59:14,526 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 22:59:14,537 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 22:59:14,537 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 22:59:14,563 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 22:59:14,563 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 22:59:14,706 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.513 seconds (JVM running for 3.249)
+2025-08-26 22:59:14,706 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.513 seconds (JVM running for 3.249)
+2025-08-26 22:59:24,412 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:59:24,412 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:59:24,412 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:59:24,412 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-26 22:59:33,252 DEBUG [http-nio-63110-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,code,item_values FROM dictionary
+2025-08-26 22:59:33,252 DEBUG [http-nio-63110-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,code,item_values FROM dictionary
+2025-08-26 22:59:33,253 DEBUG [http-nio-63110-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: 
+2025-08-26 22:59:33,253 DEBUG [http-nio-63110-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: 
+2025-08-26 22:59:33,256 DEBUG [http-nio-63110-exec-2][BaseJdbcLogger.java:137] - <==      Total: 17
+2025-08-26 22:59:33,256 DEBUG [http-nio-63110-exec-2][BaseJdbcLogger.java:137] - <==      Total: 17
+2025-08-26 22:59:49,961 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:59:49,961 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:59:51,385 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2025-08-26 22:59:51,385 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2025-08-26 22:59:51,386 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:59:51,386 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 22:59:51,388 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 22:59:51,388 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-26 22:59:51,388 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:59:51,388 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-08-26 22:59:51,389 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3188c39b: (connection evicted)
+2025-08-26 22:59:51,389 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3188c39b: (connection evicted)
+2025-08-26 22:59:51,392 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@71655b38: (connection evicted)
+2025-08-26 22:59:51,392 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@71655b38: (connection evicted)
+2025-08-26 22:59:51,392 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@30585103: (connection evicted)
+2025-08-26 22:59:51,392 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@30585103: (connection evicted)
+2025-08-26 22:59:51,393 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1224615: (connection evicted)
+2025-08-26 22:59:51,393 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1224615: (connection evicted)
+2025-08-26 22:59:51,393 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5077ae4c: (connection evicted)
+2025-08-26 22:59:51,393 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5077ae4c: (connection evicted)
+2025-08-26 22:59:51,393 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3215546f: (connection evicted)
+2025-08-26 22:59:51,393 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3215546f: (connection evicted)
+2025-08-26 22:59:51,393 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5439129a: (connection evicted)
+2025-08-26 22:59:51,393 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5439129a: (connection evicted)
+2025-08-26 22:59:51,393 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@48e2f56d: (connection evicted)
+2025-08-26 22:59:51,393 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@48e2f56d: (connection evicted)
+2025-08-26 22:59:51,393 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@63c462ab: (connection evicted)
+2025-08-26 22:59:51,393 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@63c462ab: (connection evicted)
+2025-08-26 22:59:51,394 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@f04085b: (connection evicted)
+2025-08-26 22:59:51,394 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@f04085b: (connection evicted)
+2025-08-26 22:59:51,394 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-08-26 22:59:51,394 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-08-26 22:59:51,394 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-26 22:59:51,394 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.

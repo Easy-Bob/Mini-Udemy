@@ -12,7 +12,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="xuecheng-plus" />
       </profile>
-      <profile name="Annotation profile for xuecheng-plus-system" enabled="true">
+      <profile name="Annotation profile for xuecheng-plus-content" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />

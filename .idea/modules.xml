@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Xuecheng.iml" filepath="$PROJECT_DIR$/.idea/Xuecheng.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuecheng-plus/xuecheng-plus-content/xuecheng-plus-content.iml" filepath="$PROJECT_DIR$/xuecheng-plus/xuecheng-plus-content/xuecheng-plus-content.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuecheng-plus/xuecheng-plus-generator/xuecheng-plus-generator.iml" filepath="$PROJECT_DIR$/xuecheng-plus/xuecheng-plus-generator/xuecheng-plus-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuecheng-plus/xuecheng-plus-system/xuecheng-plus-system-api/xuecheng-plus-system-api.iml" filepath="$PROJECT_DIR$/xuecheng-plus/xuecheng-plus-system/xuecheng-plus-system-api/xuecheng-plus-system-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuecheng-plus/xuecheng-plus-system/xuecheng-plus-system-model/xuecheng-plus-system-model.iml" filepath="$PROJECT_DIR$/xuecheng-plus/xuecheng-plus-system/xuecheng-plus-system-model/xuecheng-plus-system-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuecheng-plus/xuecheng-plus-system/xuecheng-plus-system-service/xuecheng-plus-system-service.iml" filepath="$PROJECT_DIR$/xuecheng-plus/xuecheng-plus-system/xuecheng-plus-system-service/xuecheng-plus-system-service.iml" />
     </modules>
   </component>
 </project>

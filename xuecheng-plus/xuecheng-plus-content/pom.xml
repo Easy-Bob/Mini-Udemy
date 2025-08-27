@@ -19,4 +19,5 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
         <module>xuecheng-plus-content-model</module>
         <module>xuecheng-plus-content-service</module>
     </modules>
+
 </project>
