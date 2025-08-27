@@ -4,7 +4,29 @@
   <groupId>com.mall</groupId>
   <artifactId>xuecheng-plus</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
   <name>Archetype - xuecheng-plus</name>
   <url>http://maven.apache.org</url>
+
+<!--  <modules>-->
+<!--    <module>xuecheng-plus-gateway</module>-->
+<!--  </modules>-->
+<!--  <properties>-->
+<!--    <spring-boot.version>2.3.7.RELEASE</spring-boot.version>-->
+<!--    <spring-cloud.version>Hoxton.SR12</spring-cloud.version>-->
+<!--  </properties>-->
+
+<!--  <dependencyManagement>-->
+<!--    <dependencies>-->
+<!--      <dependency>-->
+<!--        <groupId>org.springframework.cloud</groupId>-->
+<!--        <artifactId>spring-cloud-dependencies</artifactId>-->
+<!--        <version>${spring-cloud.version}</version>-->
+<!--        <type>pom</type>-->
+<!--        <scope>import</scope>-->
+<!--      </dependency>-->
+<!--  </dependencies>-->
+<!--</dependencyManagement>-->
+
 
 </project>
