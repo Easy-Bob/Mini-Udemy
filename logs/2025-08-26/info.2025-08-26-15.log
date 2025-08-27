@@ -1,0 +1,74 @@
+2025-08-26 15:20:37,749 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2025-08-26 15:20:37,749 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2025-08-26 15:20:37,765 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 15:20:37,765 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 15:58:22,689 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 15:58:22,689 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-08-26 15:58:23,011 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 15:58:23,011 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-08-26 15:58:23,548 INFO [main][GenericScope.java:295] - BeanFactory id=06c7aef3-4819-3add-a4a4-8b78c3758446
+2025-08-26 15:58:23,548 INFO [main][GenericScope.java:295] - BeanFactory id=06c7aef3-4819-3add-a4a4-8b78c3758446
+2025-08-26 15:58:23,765 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 15:58:23,765 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-08-26 15:58:23,772 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 15:58:23,772 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-08-26 15:58:23,773 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 15:58:23,773 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-08-26 15:58:23,773 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 15:58:23,773 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-08-26 15:58:23,872 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 15:58:23,872 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-08-26 15:58:23,873 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 852 ms
+2025-08-26 15:58:23,873 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 852 ms
+2025-08-26 15:58:24,441 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 15:58:24,441 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-08-26 15:58:24,493 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 15:58:24,493 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 15:58:24,700 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 15:58:24,700 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-08-26 15:58:24,732 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 15:58:24,732 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-08-26 15:58:24,733 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 15:58:24,733 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-08-26 15:58:24,744 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 15:58:24,744 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-08-26 15:58:24,762 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 15:58:24,762 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-08-26 15:58:24,884 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.507 seconds (JVM running for 3.21)
+2025-08-26 15:58:24,884 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 2.507 seconds (JVM running for 3.21)
+2025-08-26 15:58:39,383 INFO [http-nio-63040-exec-1][DirectJDKLog.java:175] - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: The HTTP header line [{: ] does not conform to RFC 7230 and has been ignored.
+	at org.apache.coyote.http11.Http11InputBuffer.skipLine(Http11InputBuffer.java:1041)
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeader(Http11InputBuffer.java:893)
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeaders(Http11InputBuffer.java:593)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:284)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2025-08-26 15:58:39,383 INFO [http-nio-63040-exec-1][DirectJDKLog.java:175] - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: The HTTP header line [{: ] does not conform to RFC 7230 and has been ignored.
+	at org.apache.coyote.http11.Http11InputBuffer.skipLine(Http11InputBuffer.java:1041)
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeader(Http11InputBuffer.java:893)
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeaders(Http11InputBuffer.java:593)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:284)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2025-08-26 15:59:39,769 INFO [http-nio-63040-exec-4][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 15:59:39,769 INFO [http-nio-63040-exec-4][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-26 15:59:39,769 INFO [http-nio-63040-exec-4][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 15:59:39,769 INFO [http-nio-63040-exec-4][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-08-26 15:59:39,775 INFO [http-nio-63040-exec-4][FrameworkServlet.java:547] - Completed initialization in 5 ms
+2025-08-26 15:59:39,775 INFO [http-nio-63040-exec-4][FrameworkServlet.java:547] - Completed initialization in 5 ms
