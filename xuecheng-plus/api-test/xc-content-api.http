@@ -105,3 +105,12 @@ Content-Type: application/json
   "status" : null,
   "teachPlanId" : 240
 }
+
+### 媒资文件上传测试
+GET {{media_host}}/content/upload
+
+### 媒资文件下载测试
+GET {{media_host}}/content/download
+
+### 媒资文件删除测试
+GET {{media_host}}/media/delete

@@ -1,196 +1,68 @@
-2025-08-27 18:16:37,289 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
-2025-08-27 18:16:37,289 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
-2025-08-27 18:16:37,785 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
-2025-08-27 18:16:37,785 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
-2025-08-27 18:16:38,389 INFO [main][GenericScope.java:295] - BeanFactory id=4b6e1193-b11b-3805-a429-2ee5f1f752be
-2025-08-27 18:16:38,389 INFO [main][GenericScope.java:295] - BeanFactory id=4b6e1193-b11b-3805-a429-2ee5f1f752be
-2025-08-27 18:16:38,601 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
-2025-08-27 18:16:38,601 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
-2025-08-27 18:16:38,610 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
-2025-08-27 18:16:38,610 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
-2025-08-27 18:16:38,611 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
-2025-08-27 18:16:38,611 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
-2025-08-27 18:16:38,611 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2025-08-27 18:16:38,611 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2025-08-27 18:16:38,763 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
-2025-08-27 18:16:38,763 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
-2025-08-27 18:16:38,764 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 968 ms
-2025-08-27 18:16:38,764 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 968 ms
-2025-08-27 18:16:39,451 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2025-08-27 18:16:39,451 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2025-08-27 18:16:39,482 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-08-27 18:16:39,482 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-08-27 18:16:39,482 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-08-27 18:16:39,482 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-08-27 18:16:39,485 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-08-27 18:16:39,485 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-08-27 18:16:39,485 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-08-27 18:16:39,485 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-08-27 18:16:39,523 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
-2025-08-27 18:16:39,523 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
-2025-08-27 18:16:39,769 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-08-27 18:16:39,769 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-08-27 18:16:40,169 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
-2025-08-27 18:16:40,169 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
-2025-08-27 18:16:40,206 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
-2025-08-27 18:16:40,206 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
-2025-08-27 18:16:40,217 INFO [main][NacosServiceRegistry.java:75] - nacos registry, springboot-xue-project content-api 192.168.101.1:63040 register finished
-2025-08-27 18:16:40,217 INFO [main][NacosServiceRegistry.java:75] - nacos registry, springboot-xue-project content-api 192.168.101.1:63040 register finished
-2025-08-27 18:16:40,383 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
-2025-08-27 18:16:40,383 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
-2025-08-27 18:16:40,394 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
-2025-08-27 18:16:40,394 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
-2025-08-27 18:16:40,416 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
-2025-08-27 18:16:40,416 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
-2025-08-27 18:16:40,543 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 3.748 seconds (JVM running for 4.578)
-2025-08-27 18:16:40,543 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 3.748 seconds (JVM running for 4.578)
-2025-08-27 18:16:58,246 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
-2025-08-27 18:16:58,246 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
-2025-08-27 18:16:58,251 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
-2025-08-27 18:16:58,251 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
-2025-08-27 18:16:58,255 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
-2025-08-27 18:16:58,255 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
-2025-08-27 18:16:58,256 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
-2025-08-27 18:16:58,256 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
-2025-08-27 18:16:58,256 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
-2025-08-27 18:16:58,256 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
-2025-08-27 18:16:58,256 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
-2025-08-27 18:16:58,256 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
-2025-08-27 18:16:58,259 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
-2025-08-27 18:16:58,259 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
-2025-08-27 18:16:58,273 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
-2025-08-27 18:16:58,273 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
-2025-08-27 18:16:58,340 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
-2025-08-27 18:16:58,340 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
-2025-08-27 18:16:58,345 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
-2025-08-27 18:16:58,345 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
-2025-08-27 18:16:58,345 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
-2025-08-27 18:16:58,345 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
-2025-08-27 18:16:58,345 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
-2025-08-27 18:16:58,345 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
-2025-08-27 18:16:58,345 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
-2025-08-27 18:16:58,345 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
-2025-08-27 18:16:58,345 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
-2025-08-27 18:16:58,345 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
-2025-08-27 18:16:58,692 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
-2025-08-27 18:16:58,692 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
-2025-08-27 18:16:59,169 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2025-08-27 18:16:59,169 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2025-08-27 18:16:59,227 INFO [main][GenericScope.java:295] - BeanFactory id=71fdfd8c-db76-35ff-82a9-9e5e34e81e44
-2025-08-27 18:16:59,227 INFO [main][GenericScope.java:295] - BeanFactory id=71fdfd8c-db76-35ff-82a9-9e5e34e81e44
-2025-08-27 18:16:59,427 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
-2025-08-27 18:16:59,427 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
-2025-08-27 18:16:59,433 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
-2025-08-27 18:16:59,433 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
-2025-08-27 18:16:59,433 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
-2025-08-27 18:16:59,433 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
-2025-08-27 18:16:59,434 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2025-08-27 18:16:59,434 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2025-08-27 18:16:59,554 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
-2025-08-27 18:16:59,554 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
-2025-08-27 18:16:59,554 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 852 ms
-2025-08-27 18:16:59,554 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 852 ms
-2025-08-27 18:16:59,639 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1
-2025-08-27 18:16:59,639 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1
-2025-08-27 18:16:59,679 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@3d8d970e'
-2025-08-27 18:16:59,679 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@3d8d970e'
-2025-08-27 18:16:59,680 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
-2025-08-27 18:16:59,680 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
-2025-08-27 18:16:59,790 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
-2025-08-27 18:16:59,790 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
-2025-08-27 18:16:59,792 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
-2025-08-27 18:16:59,792 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
-2025-08-27 18:16:59,794 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
-2025-08-27 18:16:59,794 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
-2025-08-27 18:16:59,809 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
-2025-08-27 18:16:59,809 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
-2025-08-27 18:16:59,810 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
-2025-08-27 18:16:59,810 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
-2025-08-27 18:16:59,812 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
-2025-08-27 18:16:59,812 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
-2025-08-27 18:16:59,814 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
-2025-08-27 18:16:59,814 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
-2025-08-27 18:16:59,814 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
-2025-08-27 18:16:59,814 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
-2025-08-27 18:16:59,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
-2025-08-27 18:16:59,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
-2025-08-27 18:16:59,816 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
-2025-08-27 18:16:59,816 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
-2025-08-27 18:16:59,818 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
-2025-08-27 18:16:59,818 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
-2025-08-27 18:16:59,819 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
-2025-08-27 18:16:59,819 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
-2025-08-27 18:16:59,820 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
-2025-08-27 18:16:59,820 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
-2025-08-27 18:16:59,821 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
-2025-08-27 18:16:59,821 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
-2025-08-27 18:16:59,823 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
-2025-08-27 18:16:59,823 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
-2025-08-27 18:16:59,824 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
-2025-08-27 18:16:59,824 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
-2025-08-27 18:16:59,825 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
-2025-08-27 18:16:59,825 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
-2025-08-27 18:17:00,044 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2025-08-27 18:17:00,044 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2025-08-27 18:17:00,072 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-08-27 18:17:00,072 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-08-27 18:17:00,072 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-08-27 18:17:00,072 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-08-27 18:17:00,075 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-08-27 18:17:00,075 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-08-27 18:17:00,076 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-08-27 18:17:00,076 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-08-27 18:17:00,091 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
-2025-08-27 18:17:00,091 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
-2025-08-27 18:17:00,092 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
-2025-08-27 18:17:00,092 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
-2025-08-27 18:17:00,092 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
-2025-08-27 18:17:00,092 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
-2025-08-27 18:17:00,093 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
-2025-08-27 18:17:00,093 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
-2025-08-27 18:17:00,094 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
-2025-08-27 18:17:00,094 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
-2025-08-27 18:17:00,094 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
-2025-08-27 18:17:00,094 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
-2025-08-27 18:17:00,094 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
-2025-08-27 18:17:00,094 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
-2025-08-27 18:17:00,094 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
-2025-08-27 18:17:00,094 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
-2025-08-27 18:17:00,095 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
-2025-08-27 18:17:00,095 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
-2025-08-27 18:17:00,095 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
-2025-08-27 18:17:00,095 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
-2025-08-27 18:17:00,096 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
-2025-08-27 18:17:00,096 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
-2025-08-27 18:17:00,096 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
-2025-08-27 18:17:00,096 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
-2025-08-27 18:17:00,096 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
-2025-08-27 18:17:00,096 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
-2025-08-27 18:17:00,096 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
-2025-08-27 18:17:00,096 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
-2025-08-27 18:17:00,097 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
-2025-08-27 18:17:00,097 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
-2025-08-27 18:17:00,097 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
-2025-08-27 18:17:00,097 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
-2025-08-27 18:17:00,144 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
-2025-08-27 18:17:00,144 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
-2025-08-27 18:17:00,392 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-08-27 18:17:00,392 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-08-27 18:17:00,425 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
-2025-08-27 18:17:00,425 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
-2025-08-27 18:17:00,752 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
-2025-08-27 18:17:00,752 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
-2025-08-27 18:17:00,784 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
-2025-08-27 18:17:00,784 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
-2025-08-27 18:17:00,794 INFO [main][NacosServiceRegistry.java:75] - nacos registry, springboot-xue-project system-api 192.168.101.1:63110 register finished
-2025-08-27 18:17:00,794 INFO [main][NacosServiceRegistry.java:75] - nacos registry, springboot-xue-project system-api 192.168.101.1:63110 register finished
-2025-08-27 18:17:00,954 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
-2025-08-27 18:17:00,954 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
-2025-08-27 18:17:00,964 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
-2025-08-27 18:17:00,964 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
-2025-08-27 18:17:00,981 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
-2025-08-27 18:17:00,981 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
-2025-08-27 18:17:01,051 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 3.298 seconds (JVM running for 4.001)
-2025-08-27 18:17:01,051 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 3.298 seconds (JVM running for 4.001)
-2025-08-27 18:17:01,331 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@31cb15ef will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@1a8e44fe
-2025-08-27 18:17:01,331 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@31cb15ef will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@1a8e44fe
+2025-08-28 11:01:40,869 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-08-28 11:01:40,869 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-08-28 11:01:40,869 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2025-08-28 11:01:40,869 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2025-08-28 11:01:40,876 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2025-08-28 11:01:40,876 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2025-08-28 11:01:40,876 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2025-08-28 11:01:40,876 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2025-08-28 11:01:40,876 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-08-28 11:01:40,876 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-08-28 11:01:40,877 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2025-08-28 11:01:40,877 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2025-08-28 11:01:40,878 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2025-08-28 11:01:40,878 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2025-08-28 11:01:40,880 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2025-08-28 11:01:40,880 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2025-08-28 11:01:40,903 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-08-28 11:01:40,903 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-08-28 11:01:40,904 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2025-08-28 11:01:40,904 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2025-08-28 11:01:40,907 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2025-08-28 11:01:40,907 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2025-08-28 11:01:41,396 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@40286908 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@306c9b2c
+2025-08-28 11:01:41,396 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@40286908 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@306c9b2c
+2025-08-28 11:01:43,830 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-28 11:01:43,830 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-28 11:01:43,830 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-28 11:01:43,830 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-28 11:01:44,578 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException: Cannot invoke "com.alibaba.nacos.api.naming.NamingService.shutDown()" because "this.namingService" is null
+2025-08-28 11:01:44,578 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException: Cannot invoke "com.alibaba.nacos.api.naming.NamingService.shutDown()" because "this.namingService" is null
+2025-08-28 11:01:44,579 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-28 11:01:44,579 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-28 11:01:44,582 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-28 11:01:44,582 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-28 11:01:44,582 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-08-28 11:01:44,582 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-08-28 11:01:44,583 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@23eb8b66: (connection evicted)
+2025-08-28 11:01:44,583 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@23eb8b66: (connection evicted)
+2025-08-28 11:01:44,586 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7cfdef84: (connection evicted)
+2025-08-28 11:01:44,586 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7cfdef84: (connection evicted)
+2025-08-28 11:01:44,586 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3dc0e5bf: (connection evicted)
+2025-08-28 11:01:44,586 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3dc0e5bf: (connection evicted)
+2025-08-28 11:01:44,586 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@c37ff8c: (connection evicted)
+2025-08-28 11:01:44,586 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@c37ff8c: (connection evicted)
+2025-08-28 11:01:44,586 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5def1af0: (connection evicted)
+2025-08-28 11:01:44,586 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5def1af0: (connection evicted)
+2025-08-28 11:01:44,587 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5c9156ba: (connection evicted)
+2025-08-28 11:01:44,587 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5c9156ba: (connection evicted)
+2025-08-28 11:01:44,587 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@59a123ae: (connection evicted)
+2025-08-28 11:01:44,587 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@59a123ae: (connection evicted)
+2025-08-28 11:01:44,587 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2867b99f: (connection evicted)
+2025-08-28 11:01:44,587 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2867b99f: (connection evicted)
+2025-08-28 11:01:44,587 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@605d1d3d: (connection evicted)
+2025-08-28 11:01:44,587 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@605d1d3d: (connection evicted)
+2025-08-28 11:01:44,587 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2303c742: (connection evicted)
+2025-08-28 11:01:44,587 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2303c742: (connection evicted)
+2025-08-28 11:01:44,588 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-08-28 11:01:44,588 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-08-28 11:01:44,588 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-28 11:01:44,588 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-28 11:01:47,423 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException: Cannot invoke "com.alibaba.nacos.api.naming.NamingService.shutDown()" because "this.namingService" is null
+2025-08-28 11:01:47,423 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException: Cannot invoke "com.alibaba.nacos.api.naming.NamingService.shutDown()" because "this.namingService" is null
+2025-08-28 11:01:47,423 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-28 11:01:47,423 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-28 11:01:47,426 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-28 11:01:47,426 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-08-28 11:01:47,431 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-08-28 11:01:47,431 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.

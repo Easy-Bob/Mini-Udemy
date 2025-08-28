@@ -1,0 +1,20 @@
+2025-08-28 11:00:13,798 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-28 11:00:13,798 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-28 11:00:13,799 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-28 11:00:13,799 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-28 11:00:43,806 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-28 11:00:43,806 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-28 11:00:43,806 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-28 11:00:43,806 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-28 11:01:13,821 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-28 11:01:13,821 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-08-28 11:01:13,821 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-28 11:01:13,821 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-08-28 11:01:40,843 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-08-28 11:01:40,843 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2025-08-28 11:01:40,843 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2025-08-28 11:01:40,843 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-08-28 11:01:40,843 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2025-08-28 11:01:40,843 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2025-08-28 11:01:40,844 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2025-08-28 11:01:40,844 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end

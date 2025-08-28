@@ -12,7 +12,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
       </profile>
-      <profile name="Annotation profile for xuecheng-plus-gateway" enabled="true">
+      <profile name="Annotation profile for xuecheng-plus-system" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -20,13 +20,16 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
         </processorPath>
         <module name="xuecheng-plus-system-service" />
+        <module name="xuecheng-plus-media-api" />
         <module name="xuecheng-plus-gateway" />
         <module name="xuecheng-plus-system-model" />
         <module name="xuecheng-plus-system-api" />
         <module name="xuecheng-plus-content-service" />
         <module name="xuecheng-plus-content-api" />
+        <module name="xuecheng-plus-media-service" />
         <module name="xuecheng-plus-content-model" />
         <module name="xuecheng-plus-generator" />
+        <module name="xuecheng-plus-media-model" />
         <module name="xuecheng-plus-base" />
       </profile>
     </annotationProcessing>
@@ -46,6 +49,10 @@
       <module name="xuecheng-plus-content-service" options="-parameters" />
       <module name="xuecheng-plus-gateway" options="-parameters" />
       <module name="xuecheng-plus-generator" options="-parameters" />
+      <module name="xuecheng-plus-media" options="-parameters" />
+      <module name="xuecheng-plus-media-api" options="-parameters" />
+      <module name="xuecheng-plus-media-model" options="-parameters" />
+      <module name="xuecheng-plus-media-service" options="-parameters" />
       <module name="xuecheng-plus-parent" options="-parameters" />
       <module name="xuecheng-plus-system" options="-parameters" />
       <module name="xuecheng-plus-system-api" options="-parameters" />
