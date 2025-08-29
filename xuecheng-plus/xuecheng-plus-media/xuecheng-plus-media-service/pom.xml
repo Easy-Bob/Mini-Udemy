@@ -70,6 +70,11 @@
             <version>4.8.1</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.xuxueli</groupId>
+            <artifactId>xxl-job-core</artifactId>
+        </dependency>
+
         <!--上传文件到Minio之前，可以根据这个工具类提前知道你要上传的文件的扩展名，也就是辨别文件类型-->
         <dependency>
             <groupId>com.j256.simplemagic</groupId>
@@ -88,6 +93,10 @@
 
             <version>1.11</version>
 
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-alibaba-commons</artifactId>
         </dependency>
 
     </dependencies>

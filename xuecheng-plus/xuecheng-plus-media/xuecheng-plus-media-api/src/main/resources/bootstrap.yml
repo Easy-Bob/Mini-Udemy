@@ -5,6 +5,10 @@ server:
 
 #微服务配置
 spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
   application:
     name: media-api
   cloud:
@@ -44,5 +48,20 @@ minio:
   secretKey: minioadmin
   bucket:
     files: mediafiles
-    videofiles: video
+    videofiles: video2
 
+xxl:
+  job:
+    admin:
+      addresses: http://192.168.101.65:8088/xxl-job-admin
+    executor:
+      appname: media-process-service
+      address:
+      ip:
+      port: 9999
+      logpath: /data/applogs/xxl-job/jobhandler
+      logretentiondays: 30
+    accessToken: default_token
+
+videoprocess:
+  ffmpegpath: D:/ffmpeg/bin/ffmpeg.exe
