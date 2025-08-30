@@ -1,8 +1,11 @@
 package com.xuecheng.content.api;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.xuecheng.content.model.dto.BindTeachplanMediaDto;
 import com.xuecheng.content.model.dto.SaveTeachplanDto;
 import com.xuecheng.content.model.dto.TeachplanDto;
+import com.xuecheng.content.model.po.TeachplanMedia;
+import com.xuecheng.content.service.TeachplanMediaService;
 import com.xuecheng.content.service.TeachplanService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.Api;
@@ -19,6 +22,9 @@ public class TeachplanController {
 
     @Autowired
     TeachplanService teachplanService;
+
+    @Autowired
+    TeachplanMediaService teachplanMediaService;
 
     @ApiOperation("查询课程计划树形结构")
     @ApiImplicitParam(value = "courseId",name = "课程基础Id值",required = true,dataType = "Long",paramType = "path")
@@ -58,4 +64,12 @@ public class TeachplanController {
         teachplanService.associationMedia(bindTeachplanMediaDto);
     }
 
+    @ApiOperation(value = "删除课程绑定的视频")
+    @DeleteMapping("/teachplan/association/media/{teachplanId}/{mediaId}")
+    void moveAssociationMedia(@PathVariable String teachplanId, @PathVariable String mediaId){
+        LambdaQueryWrapper<TeachplanMedia> wrapper = new LambdaQueryWrapper<>();
+        wrapper.eq(TeachplanMedia::getTeachplanId,teachplanId);
+        wrapper.eq(TeachplanMedia::getMediaId,mediaId);
+        teachplanMediaService.remove(wrapper);
+    }
 }

@@ -64,6 +64,12 @@ public class MediaFileServiceImpl implements MediaFileService {
   @Value("${minio.bucket.videofiles}")
   private String bucket_videofiles;
 
+ @Override
+ public MediaFiles getFileById(String mediaId) {
+  MediaFiles mediaFiles = mediaFilesMapper.selectById(mediaId);
+  return mediaFiles;
+ }
+
  //获取文件默认存储目录路径 年/月/日
  private String getDefaultFolderPath() {
   SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");

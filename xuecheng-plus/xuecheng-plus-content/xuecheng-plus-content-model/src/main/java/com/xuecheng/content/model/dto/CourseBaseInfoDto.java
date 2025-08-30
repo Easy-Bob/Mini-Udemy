@@ -12,6 +12,7 @@ import lombok.Data;
 public class CourseBaseInfoDto extends CourseBase {
 
 
+    private String name;
     /**
      * 收费规则，对应数据字典
      */

@@ -144,7 +144,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
 
         // 组成在一起
         CourseBaseInfoDto courseBaseInfoDto = new CourseBaseInfoDto();
-        BeanUtils.copyProperties(courseBaseInfoDto, courseBaseInfoDto);
+        BeanUtils.copyProperties(courseBase, courseBaseInfoDto);
         if(courseMarket != null) {
             BeanUtils.copyProperties(courseMarket, courseBaseInfoDto);
         }
