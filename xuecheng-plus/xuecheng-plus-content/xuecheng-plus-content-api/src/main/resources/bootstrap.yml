@@ -42,3 +42,16 @@ description: "内容系统管理系统对课程相关信息进行管理"
 base-package: com.xuecheng.content
 enabled: true
 version: 1.0.0
+
+xxl:
+  job:
+    admin:
+      addresses: http://192.168.101.65:8088/xxl-job-admin
+    executor:
+      appname: coursepublish-job
+      address:
+      ip:
+      port: 8999
+      logpath: /data/applogs/xxl-job/jobhandler
+      logretentiondays: 30
+    accessToken: default_token
