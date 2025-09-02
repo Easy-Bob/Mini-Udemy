@@ -1,582 +1,384 @@
-2025-08-31 15:15:25,529 WARN [Thread-26][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
-2025-08-31 15:15:25,529 WARN [Thread-20][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
-2025-08-31 15:15:25,529 WARN [Thread-26][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
-2025-08-31 15:15:25,529 WARN [Thread-20][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
-2025-08-31 15:15:25,599 WARN [Thread-26][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
-2025-08-31 15:15:25,599 WARN [Thread-26][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
-2025-08-31 15:15:25,603 WARN [Thread-20][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
-2025-08-31 15:15:25,603 WARN [Thread-20][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
-2025-08-31 15:15:26,059 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-08-31 15:15:26,059 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-08-31 15:15:26,077 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
-2025-08-31 15:15:26,077 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
-2025-08-31 15:15:26,080 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
-2025-08-31 15:15:26,080 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
-2025-08-31 15:15:32,562 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2025-08-31 15:15:32,562 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2025-08-31 15:15:32,575 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
-2025-08-31 15:15:32,575 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
-2025-08-31 15:15:32,581 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
-2025-08-31 15:15:32,581 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
-2025-08-31 15:15:32,589 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
-2025-08-31 15:15:32,589 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
-2025-08-31 15:17:58,239 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
-2025-08-31 15:17:58,239 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
-2025-08-31 15:17:58,488 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2025-08-31 15:17:58,488 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2025-08-31 15:18:00,159 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[DEFAULT_GROUP]
-2025-08-31 15:18:00,159 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[DEFAULT_GROUP]
-2025-08-31 15:18:00,166 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.properties] & group[DEFAULT_GROUP]
-2025-08-31 15:18:00,166 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.properties] & group[DEFAULT_GROUP]
-2025-08-31 15:18:00,168 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-content-api,DEFAULT_GROUP'}]
-2025-08-31 15:18:00,168 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-content-api,DEFAULT_GROUP'}]
-2025-08-31 15:18:00,193 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
-2025-08-31 15:18:00,193 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
-2025-08-31 15:18:00,355 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.xuecheng.ContentApiApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'mybatisPlusConfig' for bean class [com.xuecheng.auth.config.MybatisPlusConfig] conflicts with existing, non-compatible bean definition of same name and class [com.xuecheng.content.config.MybatisPlusConfig]
-2025-08-31 15:18:00,355 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.xuecheng.ContentApiApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'mybatisPlusConfig' for bean class [com.xuecheng.auth.config.MybatisPlusConfig] conflicts with existing, non-compatible bean definition of same name and class [com.xuecheng.content.config.MybatisPlusConfig]
-2025-08-31 15:18:00,368 ERROR [main][SpringApplication.java:837] - Application run failed
-org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.xuecheng.ContentApiApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'mybatisPlusConfig' for bean class [com.xuecheng.auth.config.MybatisPlusConfig] conflicts with existing, non-compatible bean definition of same name and class [com.xuecheng.content.config.MybatisPlusConfig]
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:189)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:319)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:280)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:96)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at com.xuecheng.ContentApiApplication.main(ContentApiApplication.java:14)
-Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'mybatisPlusConfig' for bean class [com.xuecheng.auth.config.MybatisPlusConfig] conflicts with existing, non-compatible bean definition of same name and class [com.xuecheng.content.config.MybatisPlusConfig]
-	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
-	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
-	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
-	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:296)
-	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207)
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175)
-	... 14 more
-2025-08-31 15:18:00,374 WARN [Thread-6][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
-2025-08-31 15:18:00,375 WARN [Thread-6][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
-2025-08-31 15:56:14,224 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
-2025-08-31 15:56:14,224 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
-2025-08-31 15:56:14,521 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
-2025-08-31 15:56:14,521 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
-2025-08-31 15:56:14,523 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2025-08-31 15:56:14,523 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2025-08-31 15:56:14,545 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
-2025-08-31 15:56:14,545 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
-2025-08-31 15:56:14,643 INFO [main][GenericScope.java:295] - BeanFactory id=bfaaaaa9-380a-35a5-b011-e72ab655d2d6
-2025-08-31 15:56:14,643 INFO [main][GenericScope.java:295] - BeanFactory id=bfaaaaa9-380a-35a5-b011-e72ab655d2d6
-2025-08-31 15:56:14,811 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63075 (http)
-2025-08-31 15:56:14,811 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63075 (http)
-2025-08-31 15:56:14,817 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63075"]
-2025-08-31 15:56:14,817 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63075"]
-2025-08-31 15:56:14,817 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
-2025-08-31 15:56:14,817 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
-2025-08-31 15:56:14,818 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2025-08-31 15:56:14,818 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2025-08-31 15:56:14,947 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
-2025-08-31 15:56:14,947 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
-2025-08-31 15:56:14,947 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 715 ms
-2025-08-31 15:56:14,947 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 715 ms
-2025-08-31 15:56:14,989 DEBUG [main][InternalLoggerFactory.java:45] - Using SLF4J as the default logging framework
-2025-08-31 15:56:14,989 DEBUG [main][InternalLoggerFactory.java:45] - Using SLF4J as the default logging framework
-2025-08-31 15:56:14,991 DEBUG [main][DefaultClientResources.java:108] - -Dio.netty.eventLoopThreads: 16
-2025-08-31 15:56:14,991 DEBUG [main][DefaultClientResources.java:108] - -Dio.netty.eventLoopThreads: 16
-2025-08-31 15:56:14,996 DEBUG [main][DefaultEventLoopGroupProvider.java:196] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
-2025-08-31 15:56:14,996 DEBUG [main][DefaultEventLoopGroupProvider.java:196] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
-2025-08-31 15:56:15,010 DEBUG [main][InternalThreadLocalMap.java:56] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2025-08-31 15:56:15,010 DEBUG [main][InternalThreadLocalMap.java:56] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2025-08-31 15:56:15,011 DEBUG [main][InternalThreadLocalMap.java:59] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2025-08-31 15:56:15,011 DEBUG [main][InternalThreadLocalMap.java:59] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2025-08-31 15:56:15,015 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
-2025-08-31 15:56:15,015 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
-2025-08-31 15:56:15,015 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
-2025-08-31 15:56:15,015 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
-2025-08-31 15:56:15,017 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@625d9132
-2025-08-31 15:56:15,017 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@625d9132
-2025-08-31 15:56:15,020 DEBUG [main][PlatformDependent.java:1036] - Platform: Windows
-2025-08-31 15:56:15,020 DEBUG [main][PlatformDependent.java:1036] - Platform: Windows
-2025-08-31 15:56:15,021 DEBUG [main][PlatformDependent0.java:417] - -Dio.netty.noUnsafe: false
-2025-08-31 15:56:15,021 DEBUG [main][PlatformDependent0.java:417] - -Dio.netty.noUnsafe: false
-2025-08-31 15:56:15,021 DEBUG [main][PlatformDependent0.java:897] - Java version: 8
-2025-08-31 15:56:15,021 DEBUG [main][PlatformDependent0.java:897] - Java version: 8
-2025-08-31 15:56:15,022 DEBUG [main][PlatformDependent0.java:130] - sun.misc.Unsafe.theUnsafe: available
-2025-08-31 15:56:15,022 DEBUG [main][PlatformDependent0.java:130] - sun.misc.Unsafe.theUnsafe: available
-2025-08-31 15:56:15,023 DEBUG [main][PlatformDependent0.java:154] - sun.misc.Unsafe.copyMemory: available
-2025-08-31 15:56:15,023 DEBUG [main][PlatformDependent0.java:154] - sun.misc.Unsafe.copyMemory: available
-2025-08-31 15:56:15,023 DEBUG [main][PlatformDependent0.java:192] - java.nio.Buffer.address: available
-2025-08-31 15:56:15,023 DEBUG [main][PlatformDependent0.java:192] - java.nio.Buffer.address: available
-2025-08-31 15:56:15,024 DEBUG [main][PlatformDependent0.java:257] - direct buffer constructor: available
-2025-08-31 15:56:15,024 DEBUG [main][PlatformDependent0.java:257] - direct buffer constructor: available
-2025-08-31 15:56:15,025 DEBUG [main][PlatformDependent0.java:331] - java.nio.Bits.unaligned: available, true
-2025-08-31 15:56:15,025 DEBUG [main][PlatformDependent0.java:331] - java.nio.Bits.unaligned: available, true
-2025-08-31 15:56:15,025 DEBUG [main][PlatformDependent0.java:396] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
-2025-08-31 15:56:15,025 DEBUG [main][PlatformDependent0.java:396] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
-2025-08-31 15:56:15,025 DEBUG [main][PlatformDependent0.java:403] - java.nio.DirectByteBuffer.<init>(long, int): available
-2025-08-31 15:56:15,025 DEBUG [main][PlatformDependent0.java:403] - java.nio.DirectByteBuffer.<init>(long, int): available
-2025-08-31 15:56:15,025 DEBUG [main][PlatformDependent.java:1079] - sun.misc.Unsafe: available
-2025-08-31 15:56:15,025 DEBUG [main][PlatformDependent.java:1079] - sun.misc.Unsafe: available
-2025-08-31 15:56:15,026 DEBUG [main][PlatformDependent.java:1200] - -Dio.netty.tmpdir: C:\Users\BOB\AppData\Local\Temp (java.io.tmpdir)
-2025-08-31 15:56:15,026 DEBUG [main][PlatformDependent.java:1200] - -Dio.netty.tmpdir: C:\Users\BOB\AppData\Local\Temp (java.io.tmpdir)
-2025-08-31 15:56:15,026 DEBUG [main][PlatformDependent.java:1279] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2025-08-31 15:56:15,026 DEBUG [main][PlatformDependent.java:1279] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2025-08-31 15:56:15,027 DEBUG [main][PlatformDependent.java:177] - -Dio.netty.maxDirectMemory: 3780640768 bytes
-2025-08-31 15:56:15,027 DEBUG [main][PlatformDependent.java:177] - -Dio.netty.maxDirectMemory: 3780640768 bytes
-2025-08-31 15:56:15,028 DEBUG [main][PlatformDependent.java:184] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2025-08-31 15:56:15,028 DEBUG [main][PlatformDependent.java:184] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2025-08-31 15:56:15,029 DEBUG [main][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
-2025-08-31 15:56:15,029 DEBUG [main][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
-2025-08-31 15:56:15,029 DEBUG [main][PlatformDependent.java:204] - -Dio.netty.noPreferDirect: false
-2025-08-31 15:56:15,029 DEBUG [main][PlatformDependent.java:204] - -Dio.netty.noPreferDirect: false
-2025-08-31 15:56:15,030 DEBUG [main][PlatformDependent.java:940] - org.jctools-core.MpscChunkedArrayQueue: available
-2025-08-31 15:56:15,030 DEBUG [main][PlatformDependent.java:940] - org.jctools-core.MpscChunkedArrayQueue: available
-2025-08-31 15:56:15,039 DEBUG [main][Loggers.java:249] - Using Slf4j logging framework
-2025-08-31 15:56:15,039 DEBUG [main][Loggers.java:249] - Using Slf4j logging framework
-2025-08-31 15:56:15,058 DEBUG [main][DefaultClientResources.java:204] - LatencyUtils/HdrUtils are not available, metrics are disabled
-2025-08-31 15:56:15,058 DEBUG [main][DefaultClientResources.java:204] - LatencyUtils/HdrUtils are not available, metrics are disabled
-2025-08-31 15:56:15,103 DEBUG [main][PooledByteBufAllocator.java:154] - -Dio.netty.allocator.numHeapArenas: 32
-2025-08-31 15:56:15,103 DEBUG [main][PooledByteBufAllocator.java:154] - -Dio.netty.allocator.numHeapArenas: 32
-2025-08-31 15:56:15,103 DEBUG [main][PooledByteBufAllocator.java:155] - -Dio.netty.allocator.numDirectArenas: 32
-2025-08-31 15:56:15,103 DEBUG [main][PooledByteBufAllocator.java:155] - -Dio.netty.allocator.numDirectArenas: 32
-2025-08-31 15:56:15,103 DEBUG [main][PooledByteBufAllocator.java:157] - -Dio.netty.allocator.pageSize: 8192
-2025-08-31 15:56:15,103 DEBUG [main][PooledByteBufAllocator.java:157] - -Dio.netty.allocator.pageSize: 8192
-2025-08-31 15:56:15,103 DEBUG [main][PooledByteBufAllocator.java:162] - -Dio.netty.allocator.maxOrder: 11
-2025-08-31 15:56:15,103 DEBUG [main][PooledByteBufAllocator.java:162] - -Dio.netty.allocator.maxOrder: 11
-2025-08-31 15:56:15,104 DEBUG [main][PooledByteBufAllocator.java:166] - -Dio.netty.allocator.chunkSize: 16777216
-2025-08-31 15:56:15,104 DEBUG [main][PooledByteBufAllocator.java:166] - -Dio.netty.allocator.chunkSize: 16777216
-2025-08-31 15:56:15,104 DEBUG [main][PooledByteBufAllocator.java:167] - -Dio.netty.allocator.smallCacheSize: 256
-2025-08-31 15:56:15,104 DEBUG [main][PooledByteBufAllocator.java:167] - -Dio.netty.allocator.smallCacheSize: 256
-2025-08-31 15:56:15,104 DEBUG [main][PooledByteBufAllocator.java:168] - -Dio.netty.allocator.normalCacheSize: 64
-2025-08-31 15:56:15,104 DEBUG [main][PooledByteBufAllocator.java:168] - -Dio.netty.allocator.normalCacheSize: 64
-2025-08-31 15:56:15,104 DEBUG [main][PooledByteBufAllocator.java:169] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2025-08-31 15:56:15,104 DEBUG [main][PooledByteBufAllocator.java:169] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2025-08-31 15:56:15,104 DEBUG [main][PooledByteBufAllocator.java:170] - -Dio.netty.allocator.cacheTrimInterval: 8192
-2025-08-31 15:56:15,104 DEBUG [main][PooledByteBufAllocator.java:170] - -Dio.netty.allocator.cacheTrimInterval: 8192
-2025-08-31 15:56:15,104 DEBUG [main][PooledByteBufAllocator.java:171] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-2025-08-31 15:56:15,104 DEBUG [main][PooledByteBufAllocator.java:171] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-2025-08-31 15:56:15,104 DEBUG [main][PooledByteBufAllocator.java:172] - -Dio.netty.allocator.useCacheForAllThreads: true
-2025-08-31 15:56:15,104 DEBUG [main][PooledByteBufAllocator.java:172] - -Dio.netty.allocator.useCacheForAllThreads: true
-2025-08-31 15:56:15,105 DEBUG [main][PooledByteBufAllocator.java:173] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-2025-08-31 15:56:15,105 DEBUG [main][PooledByteBufAllocator.java:173] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-2025-08-31 15:56:15,188 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-08-31 15:56:15,188 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-08-31 15:56:15,188 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-08-31 15:56:15,188 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-08-31 15:56:15,191 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-08-31 15:56:15,191 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-08-31 15:56:15,191 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-08-31 15:56:15,191 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-08-31 15:56:15,203 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
-2025-08-31 15:56:15,203 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
-2025-08-31 15:56:15,205 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
-2025-08-31 15:56:15,205 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
-2025-08-31 15:56:15,205 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
-2025-08-31 15:56:15,205 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
-2025-08-31 15:56:15,205 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
-2025-08-31 15:56:15,205 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
-2025-08-31 15:56:15,206 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
-2025-08-31 15:56:15,206 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
-2025-08-31 15:56:15,206 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
-2025-08-31 15:56:15,206 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
-2025-08-31 15:56:15,206 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
-2025-08-31 15:56:15,206 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
-2025-08-31 15:56:15,206 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
-2025-08-31 15:56:15,206 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
-2025-08-31 15:56:15,207 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
-2025-08-31 15:56:15,207 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
-2025-08-31 15:56:15,207 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
-2025-08-31 15:56:15,207 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
-2025-08-31 15:56:15,208 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
-2025-08-31 15:56:15,208 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
-2025-08-31 15:56:15,208 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
-2025-08-31 15:56:15,208 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
-2025-08-31 15:56:15,208 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
-2025-08-31 15:56:15,208 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
-2025-08-31 15:56:15,209 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
-2025-08-31 15:56:15,209 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
-2025-08-31 15:56:15,209 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
-2025-08-31 15:56:15,209 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
-2025-08-31 15:56:15,209 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
-2025-08-31 15:56:15,209 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
-2025-08-31 15:56:15,302 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
-2025-08-31 15:56:15,302 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
-2025-08-31 15:56:16,953 INFO [main][InetUtils.java:170] - Cannot determine local hostname
-2025-08-31 15:56:16,953 INFO [main][InetUtils.java:170] - Cannot determine local hostname
-2025-08-31 15:56:16,957 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-08-31 15:56:16,957 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-08-31 15:56:18,479 INFO [main][InetUtils.java:170] - Cannot determine local hostname
-2025-08-31 15:56:18,479 INFO [main][InetUtils.java:170] - Cannot determine local hostname
-2025-08-31 15:56:18,536 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
-2025-08-31 15:56:18,536 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
-2025-08-31 15:56:18,537 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
-2025-08-31 15:56:18,537 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
-2025-08-31 15:56:18,537 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
-2025-08-31 15:56:18,537 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
-2025-08-31 15:56:18,540 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
-2025-08-31 15:56:18,540 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
-2025-08-31 15:56:18,540 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
-2025-08-31 15:56:18,540 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
-2025-08-31 15:56:18,543 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:18,543 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:18,549 DEBUG [main][HostReactor.java:306] - failover-mode: false
-2025-08-31 15:56:18,549 DEBUG [main][HostReactor.java:306] - failover-mode: false
-2025-08-31 15:56:18,551 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=62573&clusters=DEFAULT, body: {}
-2025-08-31 15:56:18,551 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=62573&clusters=DEFAULT, body: {}
-2025-08-31 15:56:18,604 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63075"]
-2025-08-31 15:56:18,604 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63075"]
-2025-08-31 15:56:18,618 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63075 (http) with context path '/checkcode'
-2025-08-31 15:56:18,618 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63075 (http) with context path '/checkcode'
-2025-08-31 15:56:18,622 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
-2025-08-31 15:56:18,622 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
-2025-08-31 15:56:18,622 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@checkcode with instance: Instance{instanceId='null', ip='192.168.101.1', port=63075, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
-2025-08-31 15:56:18,622 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@checkcode with instance: Instance{instanceId='null', ip='192.168.101.1', port=63075, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
-2025-08-31 15:56:18,623 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/ns/instance?app=unknown&groupName=xuecheng-plus-project&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63075&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.101.1&weight=1.0&ephemeral=true&serviceName=xuecheng-plus-project%40%40checkcode, body: {}
-2025-08-31 15:56:18,623 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/ns/instance?app=unknown&groupName=xuecheng-plus-project&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63075&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.101.1&weight=1.0&ephemeral=true&serviceName=xuecheng-plus-project%40%40checkcode, body: {}
-2025-08-31 15:56:18,640 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project checkcode 192.168.101.1:63075 register finished
-2025-08-31 15:56:18,640 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project checkcode 192.168.101.1:63075 register finished
-2025-08-31 15:56:19,611 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=62573&clusters=DEFAULT, body: {}
-2025-08-31 15:56:19,611 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=62573&clusters=DEFAULT, body: {}
-2025-08-31 15:56:19,624 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"192.168.101.1#63075#DEFAULT#xuecheng-plus-project@@checkcode","ip":"192.168.101.1","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
-2025-08-31 15:56:19,624 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"192.168.101.1#63075#DEFAULT#xuecheng-plus-project@@checkcode","ip":"192.168.101.1","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
-2025-08-31 15:56:19,624 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@78cfcb7a will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@ec7b5de
-2025-08-31 15:56:19,624 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@78cfcb7a will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@ec7b5de
-2025-08-31 15:56:19,628 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"192.168.101.1#63075#DEFAULT#xuecheng-plus-project@@checkcode","ip":"192.168.101.1","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
-2025-08-31 15:56:19,628 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"192.168.101.1#63075#DEFAULT#xuecheng-plus-project@@checkcode","ip":"192.168.101.1","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
-2025-08-31 15:56:19,700 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"192.168.101.1\",\"port\":63075,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"192.168.101.1#63075#DEFAULT#xuecheng-plus-project@@checkcode\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@checkcode\",\"ephemeral\":true}],\"dom\":\"xuecheng-plus-project@@checkcode\",\"name\":\"xuecheng-plus-project@@checkcode\",\"cacheMillis\":10000,\"lastRefTime\":1756673779700,\"checksum\":\"5b5629f91a30fadc5c27330a48661282\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":49188303277712} from /192.168.101.65
-2025-08-31 15:56:19,700 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"192.168.101.1\",\"port\":63075,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"192.168.101.1#63075#DEFAULT#xuecheng-plus-project@@checkcode\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@checkcode\",\"ephemeral\":true}],\"dom\":\"xuecheng-plus-project@@checkcode\",\"name\":\"xuecheng-plus-project@@checkcode\",\"cacheMillis\":10000,\"lastRefTime\":1756673779700,\"checksum\":\"5b5629f91a30fadc5c27330a48661282\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":49188303277712} from /192.168.101.65
-2025-08-31 15:56:20,093 INFO [main][InetUtils.java:170] - Cannot determine local hostname
-2025-08-31 15:56:20,093 INFO [main][InetUtils.java:170] - Cannot determine local hostname
-2025-08-31 15:56:20,099 INFO [main][StartupInfoLogger.java:61] - Started CheckcodeApplication in 9.571 seconds (JVM running for 10.611)
-2025-08-31 15:56:20,099 INFO [main][StartupInfoLogger.java:61] - Started CheckcodeApplication in 9.571 seconds (JVM running for 10.611)
-2025-08-31 15:56:20,102 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] swagger-dev.yaml+xuecheng-plus-common+dev
-2025-08-31 15:56:20,102 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] swagger-dev.yaml+xuecheng-plus-common+dev
-2025-08-31 15:56:20,103 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=xuecheng-plus-common, cnt=1
-2025-08-31 15:56:20,103 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=xuecheng-plus-common, cnt=1
-2025-08-31 15:56:20,104 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] checkcode-dev.yaml+xuecheng-plus-project+dev
-2025-08-31 15:56:20,104 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] checkcode-dev.yaml+xuecheng-plus-project+dev
-2025-08-31 15:56:20,105 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode-dev.yaml, group=xuecheng-plus-project, cnt=1
-2025-08-31 15:56:20,105 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode-dev.yaml, group=xuecheng-plus-project, cnt=1
-2025-08-31 15:56:20,105 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] checkcode+xuecheng-plus-project+dev
-2025-08-31 15:56:20,105 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] checkcode+xuecheng-plus-project+dev
-2025-08-31 15:56:20,105 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode, group=xuecheng-plus-project, cnt=1
-2025-08-31 15:56:20,105 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode, group=xuecheng-plus-project, cnt=1
-2025-08-31 15:56:20,105 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] redis-dev.yaml+xuecheng-plus-common+dev
-2025-08-31 15:56:20,105 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] redis-dev.yaml+xuecheng-plus-common+dev
-2025-08-31 15:56:20,105 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=redis-dev.yaml, group=xuecheng-plus-common, cnt=1
-2025-08-31 15:56:20,105 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=redis-dev.yaml, group=xuecheng-plus-common, cnt=1
-2025-08-31 15:56:20,107 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] checkcode.yaml+xuecheng-plus-project+dev
-2025-08-31 15:56:20,107 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] checkcode.yaml+xuecheng-plus-project+dev
-2025-08-31 15:56:20,107 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode.yaml, group=xuecheng-plus-project, cnt=1
-2025-08-31 15:56:20,107 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode.yaml, group=xuecheng-plus-project, cnt=1
-2025-08-31 15:56:20,107 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
-2025-08-31 15:56:20,107 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
-2025-08-31 15:56:20,107 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
-2025-08-31 15:56:20,107 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
-2025-08-31 15:56:20,110 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcode.yamlxuecheng-plus-projectdevcheckcodexuecheng-plus-projectdevredis-dev.yamlxuecheng-plus-commondev, tenant=dev}
-2025-08-31 15:56:20,110 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcode.yamlxuecheng-plus-projectdevcheckcodexuecheng-plus-projectdevredis-dev.yamlxuecheng-plus-commondev, tenant=dev}
-2025-08-31 15:56:20,110 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3ca7bb57]
-2025-08-31 15:56:20,110 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3ca7bb57]
-2025-08-31 15:56:20,119 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcode.yamlxuecheng-plus-projectdevcheckcodexuecheng-plus-projectdevredis-dev.yamlxuecheng-plus-commondev, tenant=dev}
-2025-08-31 15:56:20,119 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcode.yamlxuecheng-plus-projectdevcheckcodexuecheng-plus-projectdevredis-dev.yamlxuecheng-plus-commondev, tenant=dev}
-2025-08-31 15:56:20,119 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3ca7bb57]
-2025-08-31 15:56:20,119 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3ca7bb57]
-2025-08-31 15:56:23,554 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:23,554 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:23,633 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:56:23,633 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:56:23,635 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {beat={"port":63075,"ip":"192.168.101.1","weight":1.0,"serviceName":"xuecheng-plus-project@@checkcode","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
-2025-08-31 15:56:23,635 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {beat={"port":63075,"ip":"192.168.101.1","weight":1.0,"serviceName":"xuecheng-plus-project@@checkcode","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
-2025-08-31 15:56:28,556 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:28,556 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:28,665 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:56:28,665 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:56:28,665 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:56:28,665 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:56:29,628 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=62573&clusters=DEFAULT, body: {}
-2025-08-31 15:56:29,628 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=62573&clusters=DEFAULT, body: {}
-2025-08-31 15:56:33,558 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:33,558 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:33,670 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:56:33,670 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:56:33,671 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:56:33,671 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:56:38,018 INFO [http-nio-63075-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-31 15:56:38,018 INFO [http-nio-63075-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-31 15:56:38,018 INFO [http-nio-63075-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
-2025-08-31 15:56:38,018 INFO [http-nio-63075-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
-2025-08-31 15:56:38,033 INFO [http-nio-63075-exec-1][FrameworkServlet.java:547] - Completed initialization in 14 ms
-2025-08-31 15:56:38,033 INFO [http-nio-63075-exec-1][FrameworkServlet.java:547] - Completed initialization in 14 ms
-2025-08-31 15:56:38,053 DEBUG [http-nio-63075-exec-1][AbstractCheckCodeService.java:40] - 生成验证码:JU66
-2025-08-31 15:56:38,053 DEBUG [http-nio-63075-exec-1][AbstractCheckCodeService.java:40] - 生成验证码:JU66
-2025-08-31 15:56:38,063 DEBUG [http-nio-63075-exec-1][RedisClient.java:263] - Trying to get a Redis connection for: RedisURI [host='192.168.101.65', port=6379]
-2025-08-31 15:56:38,063 DEBUG [http-nio-63075-exec-1][RedisClient.java:263] - Trying to get a Redis connection for: RedisURI [host='192.168.101.65', port=6379]
-2025-08-31 15:56:38,128 DEBUG [http-nio-63075-exec-1][EpollProvider.java:70] - Starting without optional epoll library
-2025-08-31 15:56:38,128 DEBUG [http-nio-63075-exec-1][EpollProvider.java:70] - Starting without optional epoll library
-2025-08-31 15:56:38,130 DEBUG [http-nio-63075-exec-1][KqueueProvider.java:72] - Starting without optional kqueue library
-2025-08-31 15:56:38,130 DEBUG [http-nio-63075-exec-1][KqueueProvider.java:72] - Starting without optional kqueue library
-2025-08-31 15:56:38,131 DEBUG [http-nio-63075-exec-1][DefaultEventLoopGroupProvider.java:85] - Allocating executor io.netty.channel.nio.NioEventLoopGroup
-2025-08-31 15:56:38,131 DEBUG [http-nio-63075-exec-1][DefaultEventLoopGroupProvider.java:85] - Allocating executor io.netty.channel.nio.NioEventLoopGroup
-2025-08-31 15:56:38,131 DEBUG [http-nio-63075-exec-1][DefaultEventLoopGroupProvider.java:196] - Creating executor io.netty.channel.nio.NioEventLoopGroup
-2025-08-31 15:56:38,131 DEBUG [http-nio-63075-exec-1][DefaultEventLoopGroupProvider.java:196] - Creating executor io.netty.channel.nio.NioEventLoopGroup
-2025-08-31 15:56:38,132 DEBUG [http-nio-63075-exec-1][MultithreadEventLoopGroup.java:44] - -Dio.netty.eventLoopThreads: 32
-2025-08-31 15:56:38,132 DEBUG [http-nio-63075-exec-1][MultithreadEventLoopGroup.java:44] - -Dio.netty.eventLoopThreads: 32
-2025-08-31 15:56:38,136 DEBUG [http-nio-63075-exec-1][NioEventLoop.java:106] - -Dio.netty.noKeySetOptimization: false
-2025-08-31 15:56:38,136 DEBUG [http-nio-63075-exec-1][NioEventLoop.java:106] - -Dio.netty.noKeySetOptimization: false
-2025-08-31 15:56:38,136 DEBUG [http-nio-63075-exec-1][NioEventLoop.java:107] - -Dio.netty.selectorAutoRebuildThreshold: 512
-2025-08-31 15:56:38,136 DEBUG [http-nio-63075-exec-1][NioEventLoop.java:107] - -Dio.netty.selectorAutoRebuildThreshold: 512
-2025-08-31 15:56:38,146 DEBUG [http-nio-63075-exec-1][DefaultEventLoopGroupProvider.java:98] - Adding reference to io.netty.channel.nio.NioEventLoopGroup@661c40f1, existing ref count 0
-2025-08-31 15:56:38,146 DEBUG [http-nio-63075-exec-1][DefaultEventLoopGroupProvider.java:98] - Adding reference to io.netty.channel.nio.NioEventLoopGroup@661c40f1, existing ref count 0
-2025-08-31 15:56:38,156 DEBUG [http-nio-63075-exec-1][RedisClient.java:775] - Resolved SocketAddress 192.168.101.65:6379 using RedisURI [host='192.168.101.65', port=6379]
-2025-08-31 15:56:38,156 DEBUG [http-nio-63075-exec-1][RedisClient.java:775] - Resolved SocketAddress 192.168.101.65:6379 using RedisURI [host='192.168.101.65', port=6379]
-2025-08-31 15:56:38,157 DEBUG [http-nio-63075-exec-1][AbstractRedisClient.java:312] - Connecting to Redis at 192.168.101.65:6379
-2025-08-31 15:56:38,157 DEBUG [http-nio-63075-exec-1][AbstractRedisClient.java:312] - Connecting to Redis at 192.168.101.65:6379
-2025-08-31 15:56:38,163 DEBUG [http-nio-63075-exec-1][DefaultChannelId.java:79] - -Dio.netty.processId: 31616 (auto-detected)
-2025-08-31 15:56:38,163 DEBUG [http-nio-63075-exec-1][DefaultChannelId.java:79] - -Dio.netty.processId: 31616 (auto-detected)
-2025-08-31 15:56:38,164 DEBUG [http-nio-63075-exec-1][NetUtil.java:135] - -Djava.net.preferIPv4Stack: false
-2025-08-31 15:56:38,164 DEBUG [http-nio-63075-exec-1][NetUtil.java:135] - -Djava.net.preferIPv4Stack: false
-2025-08-31 15:56:38,164 DEBUG [http-nio-63075-exec-1][NetUtil.java:136] - -Djava.net.preferIPv6Addresses: false
-2025-08-31 15:56:38,164 DEBUG [http-nio-63075-exec-1][NetUtil.java:136] - -Djava.net.preferIPv6Addresses: false
-2025-08-31 15:56:38,469 DEBUG [http-nio-63075-exec-1][NetUtilInitializations.java:129] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-2025-08-31 15:56:38,469 DEBUG [http-nio-63075-exec-1][NetUtilInitializations.java:129] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-2025-08-31 15:56:38,470 DEBUG [http-nio-63075-exec-1][NetUtil.java:187] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-2025-08-31 15:56:38,470 DEBUG [http-nio-63075-exec-1][NetUtil.java:187] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-2025-08-31 15:56:38,567 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:38,567 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:38,679 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:56:38,679 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:56:38,679 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:56:38,679 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:56:38,794 DEBUG [http-nio-63075-exec-1][DefaultChannelId.java:101] - -Dio.netty.machineId: 50:84:92:ff:fe:3b:5f:6f (auto-detected)
-2025-08-31 15:56:38,794 DEBUG [http-nio-63075-exec-1][DefaultChannelId.java:101] - -Dio.netty.machineId: 50:84:92:ff:fe:3b:5f:6f (auto-detected)
-2025-08-31 15:56:38,814 DEBUG [http-nio-63075-exec-1][ByteBufUtil.java:87] - -Dio.netty.allocator.type: pooled
-2025-08-31 15:56:38,814 DEBUG [http-nio-63075-exec-1][ByteBufUtil.java:87] - -Dio.netty.allocator.type: pooled
-2025-08-31 15:56:38,815 DEBUG [http-nio-63075-exec-1][ByteBufUtil.java:96] - -Dio.netty.threadLocalDirectBufferSize: 0
-2025-08-31 15:56:38,815 DEBUG [http-nio-63075-exec-1][ByteBufUtil.java:96] - -Dio.netty.threadLocalDirectBufferSize: 0
-2025-08-31 15:56:38,815 DEBUG [http-nio-63075-exec-1][ByteBufUtil.java:99] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-2025-08-31 15:56:38,815 DEBUG [http-nio-63075-exec-1][ByteBufUtil.java:99] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-2025-08-31 15:56:38,828 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:102] - -Dio.netty.recycler.maxCapacityPerThread: 4096
-2025-08-31 15:56:38,828 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:102] - -Dio.netty.recycler.maxCapacityPerThread: 4096
-2025-08-31 15:56:38,828 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:103] - -Dio.netty.recycler.maxSharedCapacityFactor: 2
-2025-08-31 15:56:38,828 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:103] - -Dio.netty.recycler.maxSharedCapacityFactor: 2
-2025-08-31 15:56:38,828 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:104] - -Dio.netty.recycler.linkCapacity: 16
-2025-08-31 15:56:38,828 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:104] - -Dio.netty.recycler.linkCapacity: 16
-2025-08-31 15:56:38,828 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:105] - -Dio.netty.recycler.ratio: 8
-2025-08-31 15:56:38,828 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:105] - -Dio.netty.recycler.ratio: 8
-2025-08-31 15:56:38,828 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:106] - -Dio.netty.recycler.delayedQueue.ratio: 8
-2025-08-31 15:56:38,828 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:106] - -Dio.netty.recycler.delayedQueue.ratio: 8
-2025-08-31 15:56:38,833 DEBUG [lettuce-nioEventLoop-4-1][AbstractByteBuf.java:63] - -Dio.netty.buffer.checkAccessible: true
-2025-08-31 15:56:38,833 DEBUG [lettuce-nioEventLoop-4-1][AbstractByteBuf.java:63] - -Dio.netty.buffer.checkAccessible: true
-2025-08-31 15:56:38,834 DEBUG [lettuce-nioEventLoop-4-1][AbstractByteBuf.java:64] - -Dio.netty.buffer.checkBounds: true
-2025-08-31 15:56:38,834 DEBUG [lettuce-nioEventLoop-4-1][AbstractByteBuf.java:64] - -Dio.netty.buffer.checkBounds: true
-2025-08-31 15:56:38,834 DEBUG [lettuce-nioEventLoop-4-1][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5aceff66
-2025-08-31 15:56:38,834 DEBUG [lettuce-nioEventLoop-4-1][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5aceff66
-2025-08-31 15:56:38,847 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:181] - [channel=0x93b5265a, [id: 0xe729eed4] (inactive), chid=0x1] channelRegistered()
-2025-08-31 15:56:38,847 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:181] - [channel=0x93b5265a, [id: 0xe729eed4] (inactive), chid=0x1] channelRegistered()
-2025-08-31 15:56:39,635 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=62573&clusters=DEFAULT, body: {}
-2025-08-31 15:56:39,635 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=62573&clusters=DEFAULT, body: {}
-2025-08-31 15:56:40,881 DEBUG [lettuce-nioEventLoop-4-1][AbstractRedisClient.java:348] - Connecting to Redis at 192.168.101.65:6379: 192.168.101.65:6379
-io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.101.65:6379
-Caused by: java.net.ConnectException: Connection refused: no further information
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
-	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-2025-08-31 15:56:40,881 DEBUG [lettuce-nioEventLoop-4-1][AbstractRedisClient.java:348] - Connecting to Redis at 192.168.101.65:6379: 192.168.101.65:6379
-io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.101.65:6379
-Caused by: java.net.ConnectException: Connection refused: no further information
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
-	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-2025-08-31 15:56:40,891 DEBUG [lettuce-nioEventLoop-4-1][RedisChannelHandler.java:131] - close()
-2025-08-31 15:56:40,891 DEBUG [lettuce-nioEventLoop-4-1][RedisChannelHandler.java:131] - close()
-2025-08-31 15:56:40,892 DEBUG [lettuce-nioEventLoop-4-1][RedisChannelHandler.java:145] - closeAsync()
-2025-08-31 15:56:40,892 DEBUG [lettuce-nioEventLoop-4-1][RedisChannelHandler.java:145] - closeAsync()
-2025-08-31 15:56:40,892 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:549] - [unknown, epid=0x1] closeAsync()
-2025-08-31 15:56:40,892 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:549] - [unknown, epid=0x1] closeAsync()
-2025-08-31 15:56:40,893 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:198] - [channel=0x93b5265a, [id: 0xe729eed4] (inactive), chid=0x1] channelUnregistered()
-2025-08-31 15:56:40,893 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:198] - [channel=0x93b5265a, [id: 0xe729eed4] (inactive), chid=0x1] channelUnregistered()
-2025-08-31 15:56:40,899 ERROR [http-nio-63075-exec-1][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/checkcode] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.101.65:6379] with root cause
-java.net.ConnectException: Connection refused: no further information
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
-	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-2025-08-31 15:56:40,899 ERROR [http-nio-63075-exec-1][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/checkcode] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.101.65:6379] with root cause
-java.net.ConnectException: Connection refused: no further information
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
-	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-2025-08-31 15:56:43,580 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:43,580 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:43,688 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:56:43,688 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:56:43,688 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:56:43,688 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:56:48,543 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
-2025-08-31 15:56:48,543 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
-2025-08-31 15:56:48,590 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:48,590 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:48,702 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:56:48,702 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:56:48,702 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:56:48,702 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:56:49,645 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=62573&clusters=DEFAULT, body: {}
-2025-08-31 15:56:49,645 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=62573&clusters=DEFAULT, body: {}
-2025-08-31 15:56:49,834 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcode.yamlxuecheng-plus-projectdevcheckcodexuecheng-plus-projectdevredis-dev.yamlxuecheng-plus-commondev, tenant=dev}
-2025-08-31 15:56:49,834 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcode.yamlxuecheng-plus-projectdevcheckcodexuecheng-plus-projectdevredis-dev.yamlxuecheng-plus-commondev, tenant=dev}
-2025-08-31 15:56:49,834 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3ca7bb57]
-2025-08-31 15:56:49,834 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3ca7bb57]
-2025-08-31 15:56:53,600 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:53,600 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:53,709 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:56:53,709 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:56:53,709 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:56:53,709 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:56:58,612 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:58,612 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:56:58,721 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:56:58,721 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:56:58,721 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:56:58,721 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:56:59,656 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=62573&clusters=DEFAULT, body: {}
-2025-08-31 15:56:59,656 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=62573&clusters=DEFAULT, body: {}
-2025-08-31 15:57:03,623 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:57:03,623 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:57:03,732 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:57:03,732 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:57:03,732 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:57:03,732 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:57:08,628 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:57:08,628 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:57:08,737 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:57:08,737 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:57:08,738 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:57:08,738 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:57:09,675 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=62573&clusters=DEFAULT, body: {}
-2025-08-31 15:57:09,675 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=62573&clusters=DEFAULT, body: {}
-2025-08-31 15:57:13,642 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:57:13,642 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:57:13,750 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:57:13,750 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
-2025-08-31 15:57:13,750 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:57:13,750 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
-2025-08-31 15:57:13,993 WARN [Thread-6][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
-2025-08-31 15:57:13,993 WARN [Thread-26][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
-2025-08-31 15:57:13,993 WARN [Thread-6][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
-2025-08-31 15:57:13,993 WARN [Thread-26][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
-2025-08-31 15:57:13,994 WARN [Thread-26][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
-2025-08-31 15:57:13,994 WARN [Thread-26][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
-2025-08-31 15:57:13,994 WARN [Thread-6][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
-2025-08-31 15:57:13,994 WARN [Thread-6][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
-2025-08-31 15:57:14,313 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-08-31 15:57:14,313 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-08-31 15:57:14,315 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
-2025-08-31 15:57:14,315 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
-2025-08-31 15:57:14,315 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@checkcode:192.168.101.1:63075 from beat map.
-2025-08-31 15:57:14,315 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@checkcode:192.168.101.1:63075 from beat map.
-2025-08-31 15:57:14,316 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@checkcode with instance: Instance{instanceId='null', ip='192.168.101.1', port=63075, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
-2025-08-31 15:57:14,316 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@checkcode with instance: Instance{instanceId='null', ip='192.168.101.1', port=63075, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
-2025-08-31 15:57:14,316 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.101.65:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1&ephemeral=true&serviceName=xuecheng-plus-project%40%40checkcode, body: {}
-2025-08-31 15:57:14,316 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.101.65:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev&port=63075&clusterName=DEFAULT&ip=192.168.101.1&ephemeral=true&serviceName=xuecheng-plus-project%40%40checkcode, body: {}
-2025-08-31 15:57:14,318 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
-2025-08-31 15:57:14,318 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
-2025-08-31 15:57:14,318 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
-2025-08-31 15:57:14,318 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
-2025-08-31 15:57:15,324 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"dom\":\"xuecheng-plus-project@@checkcode\",\"name\":\"xuecheng-plus-project@@checkcode\",\"cacheMillis\":10000,\"lastRefTime\":1756673835325,\"checksum\":\"1ea0390f3927c0cbf21ea6e3de9b8d83\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"hosts\":[],\"metadata\":{}}","lastRefTime":49243928316250} from /192.168.101.65
-2025-08-31 15:57:15,324 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"dom\":\"xuecheng-plus-project@@checkcode\",\"name\":\"xuecheng-plus-project@@checkcode\",\"cacheMillis\":10000,\"lastRefTime\":1756673835325,\"checksum\":\"1ea0390f3927c0cbf21ea6e3de9b8d83\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"hosts\":[],\"metadata\":{}}","lastRefTime":49243928316250} from /192.168.101.65
-2025-08-31 15:57:15,325 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: xuecheng-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"192.168.101.1#63075#DEFAULT#xuecheng-plus-project@@checkcode","ip":"192.168.101.1","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
-2025-08-31 15:57:15,325 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: xuecheng-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"192.168.101.1#63075#DEFAULT#xuecheng-plus-project@@checkcode","ip":"192.168.101.1","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
-2025-08-31 15:57:15,325 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@6fe34b6a will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@ec7b5de
-2025-08-31 15:57:15,325 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@6fe34b6a will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@ec7b5de
-2025-08-31 15:57:15,328 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: xuecheng-plus-project@@checkcode@@DEFAULT -> []
-2025-08-31 15:57:15,328 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: xuecheng-plus-project@@checkcode@@DEFAULT -> []
-2025-08-31 15:57:17,347 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
-2025-08-31 15:57:17,347 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
-2025-08-31 15:57:17,347 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
-2025-08-31 15:57:17,347 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
-2025-08-31 15:57:18,556 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
-2025-08-31 15:57:18,556 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
-2025-08-31 15:57:18,650 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:57:18,650 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
-2025-08-31 15:57:19,363 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcode.yamlxuecheng-plus-projectdevcheckcodexuecheng-plus-projectdevredis-dev.yamlxuecheng-plus-commondev, tenant=dev}
-2025-08-31 15:57:19,363 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcode.yamlxuecheng-plus-projectdevcheckcodexuecheng-plus-projectdevredis-dev.yamlxuecheng-plus-commondev, tenant=dev}
-2025-08-31 15:57:19,364 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3ca7bb57]
-2025-08-31 15:57:19,364 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3ca7bb57]
-2025-08-31 15:57:19,687 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=62573&clusters=DEFAULT, body: {}
-2025-08-31 15:57:19,687 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=62573&clusters=DEFAULT, body: {}
-2025-08-31 15:57:19,696 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
-2025-08-31 15:57:19,696 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
-2025-08-31 15:57:22,717 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
-2025-08-31 15:57:22,717 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
-2025-08-31 15:57:22,718 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
-2025-08-31 15:57:22,718 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
-2025-08-31 15:57:22,718 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
-2025-08-31 15:57:22,718 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
-2025-08-31 15:57:22,718 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
-2025-08-31 15:57:22,718 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
-2025-08-31 15:57:22,718 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
-2025-08-31 15:57:22,718 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
-2025-08-31 15:57:22,719 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
-2025-08-31 15:57:22,719 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
-2025-08-31 15:57:22,719 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
-2025-08-31 15:57:22,719 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
-2025-08-31 15:57:22,719 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
-2025-08-31 15:57:22,719 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
-2025-08-31 15:57:22,719 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
-2025-08-31 15:57:22,719 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
-2025-08-31 15:57:22,719 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
-2025-08-31 15:57:22,719 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
-2025-08-31 15:57:22,719 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
-2025-08-31 15:57:22,719 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
-2025-08-31 15:57:22,720 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2025-08-31 15:57:22,720 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2025-08-31 15:57:22,725 DEBUG [SpringContextShutdownHook][AbstractRedisClient.java:474] - Initiate shutdown (100, 100, MILLISECONDS)
-2025-08-31 15:57:22,725 DEBUG [SpringContextShutdownHook][AbstractRedisClient.java:474] - Initiate shutdown (100, 100, MILLISECONDS)
-2025-08-31 15:57:22,728 DEBUG [SpringContextShutdownHook][DefaultEventLoopGroupProvider.java:226] - Release executor io.netty.channel.nio.NioEventLoopGroup@661c40f1
-2025-08-31 15:57:22,728 DEBUG [SpringContextShutdownHook][DefaultEventLoopGroupProvider.java:226] - Release executor io.netty.channel.nio.NioEventLoopGroup@661c40f1
-2025-08-31 15:57:22,729 DEBUG [lettuce-nioEventLoop-4-1][PoolThreadCache.java:224] - Freed 1 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1
-2025-08-31 15:57:22,729 DEBUG [lettuce-nioEventLoop-4-1][PoolThreadCache.java:224] - Freed 1 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1
-2025-08-31 15:57:22,847 DEBUG [SpringContextShutdownHook][DefaultClientResources.java:631] - Initiate shutdown (0, 2, SECONDS)
-2025-08-31 15:57:22,847 DEBUG [SpringContextShutdownHook][DefaultClientResources.java:631] - Initiate shutdown (0, 2, SECONDS)
-2025-08-31 15:57:22,849 DEBUG [SpringContextShutdownHook][DefaultEventLoopGroupProvider.java:263] - Initiate shutdown (0, 2, SECONDS)
-2025-08-31 15:57:22,849 DEBUG [SpringContextShutdownHook][DefaultEventLoopGroupProvider.java:263] - Initiate shutdown (0, 2, SECONDS)
+2025-09-02 16:15:28,450 WARN [Thread-15][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-02 16:15:28,450 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2025-09-02 16:15:28,450 WARN [Thread-15][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-02 16:15:28,450 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2025-09-02 16:15:28,460 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2025-09-02 16:15:28,460 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2025-09-02 16:15:28,461 WARN [Thread-15][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2025-09-02 16:15:28,461 WARN [Thread-15][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2025-09-02 16:15:28,831 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-09-02 16:15:28,831 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-09-02 16:15:28,832 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2025-09-02 16:15:28,832 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2025-09-02 16:15:28,834 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2025-09-02 16:15:28,834 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2025-09-02 16:15:36,100 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-09-02 16:15:36,100 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-09-02 16:15:36,101 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-02 16:15:36,101 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-02 16:15:36,109 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-09-02 16:15:36,109 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-09-02 16:15:36,115 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-09-02 16:15:36,115 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-09-02 16:15:38,471 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:15:38,471 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:15:38,471 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:15:38,471 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:15:44,632 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-09-02 16:15:44,632 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-09-02 16:15:44,892 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2025-09-02 16:15:44,892 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2025-09-02 16:15:45,439 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-09-02 16:15:45,439 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-09-02 16:15:46,107 INFO [main][GenericScope.java:295] - BeanFactory id=b27238d2-9a46-3ca5-866c-575b1fb1f945
+2025-09-02 16:15:46,107 INFO [main][GenericScope.java:295] - BeanFactory id=b27238d2-9a46-3ca5-866c-575b1fb1f945
+2025-09-02 16:15:46,351 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-09-02 16:15:46,351 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-09-02 16:15:46,358 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-09-02 16:15:46,358 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-09-02 16:15:46,358 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-09-02 16:15:46,358 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-09-02 16:15:46,358 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-09-02 16:15:46,358 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-09-02 16:15:46,490 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-09-02 16:15:46,490 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-09-02 16:15:46,491 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1043 ms
+2025-09-02 16:15:46,491 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1043 ms
+2025-09-02 16:15:47,781 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-09-02 16:15:47,781 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-09-02 16:15:47,808 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2025-09-02 16:15:47,808 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2025-09-02 16:15:47,808 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-09-02 16:15:47,808 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-09-02 16:15:47,811 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2025-09-02 16:15:47,811 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2025-09-02 16:15:47,812 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-09-02 16:15:47,812 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-09-02 16:15:47,857 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-02 16:15:47,857 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-02 16:15:48,413 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-09-02 16:15:48,413 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-09-02 16:15:49,182 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-09-02 16:15:49,182 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-09-02 16:15:49,199 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-09-02 16:15:49,199 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-09-02 16:15:49,207 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project content-api 192.168.101.1:63040 register finished
+2025-09-02 16:15:49,207 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project content-api 192.168.101.1:63040 register finished
+2025-09-02 16:15:49,669 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-09-02 16:15:49,669 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-09-02 16:15:49,685 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-09-02 16:15:49,685 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-09-02 16:15:49,711 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-09-02 16:15:49,711 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-09-02 16:15:49,867 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 6.101 seconds (JVM running for 7.086)
+2025-09-02 16:15:49,867 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 6.101 seconds (JVM running for 7.086)
+2025-09-02 16:16:08,482 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:16:08,482 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:16:08,482 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:16:08,482 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:16:22,644 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a99b24: (connection has passed maxLifetime)
+2025-09-02 16:16:22,644 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a99b24: (connection has passed maxLifetime)
+2025-09-02 16:16:22,658 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c7164c9
+2025-09-02 16:16:22,658 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c7164c9
+2025-09-02 16:16:28,207 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@98b866b: (connection has passed maxLifetime)
+2025-09-02 16:16:28,207 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@98b866b: (connection has passed maxLifetime)
+2025-09-02 16:16:28,213 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a73ea4e
+2025-09-02 16:16:28,213 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a73ea4e
+2025-09-02 16:16:34,626 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2025-09-02 16:16:34,626 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2025-09-02 16:16:34,626 WARN [Thread-15][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-02 16:16:34,626 WARN [Thread-15][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-02 16:16:34,626 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2025-09-02 16:16:34,626 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2025-09-02 16:16:34,627 WARN [Thread-15][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2025-09-02 16:16:34,627 WARN [Thread-15][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2025-09-02 16:16:34,990 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-09-02 16:16:34,990 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-09-02 16:16:34,992 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2025-09-02 16:16:34,992 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2025-09-02 16:16:34,994 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2025-09-02 16:16:34,994 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2025-09-02 16:16:38,485 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:16:38,485 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:16:38,485 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:16:38,485 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:16:43,287 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-09-02 16:16:43,287 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-09-02 16:16:43,288 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-02 16:16:43,288 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-02 16:16:45,864 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@48b68c50: (connection has passed maxLifetime)
+2025-09-02 16:16:45,864 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@48b68c50: (connection has passed maxLifetime)
+2025-09-02 16:16:45,874 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e1bb108
+2025-09-02 16:16:45,874 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e1bb108
+2025-09-02 16:16:48,085 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-09-02 16:16:48,085 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-09-02 16:16:48,334 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2025-09-02 16:16:48,334 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2025-09-02 16:16:48,900 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-09-02 16:16:48,900 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-09-02 16:16:49,070 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@474e1143: (connection has passed maxLifetime)
+2025-09-02 16:16:49,070 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@474e1143: (connection has passed maxLifetime)
+2025-09-02 16:16:49,076 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f26bb33
+2025-09-02 16:16:49,076 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f26bb33
+2025-09-02 16:16:49,615 INFO [main][GenericScope.java:295] - BeanFactory id=b27238d2-9a46-3ca5-866c-575b1fb1f945
+2025-09-02 16:16:49,615 INFO [main][GenericScope.java:295] - BeanFactory id=b27238d2-9a46-3ca5-866c-575b1fb1f945
+2025-09-02 16:16:49,842 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-09-02 16:16:49,842 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-09-02 16:16:49,848 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-09-02 16:16:49,848 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-09-02 16:16:49,849 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-09-02 16:16:49,849 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-09-02 16:16:49,849 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-09-02 16:16:49,849 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-09-02 16:16:49,983 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-09-02 16:16:49,983 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-09-02 16:16:49,984 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1075 ms
+2025-09-02 16:16:49,984 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1075 ms
+2025-09-02 16:16:51,235 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-09-02 16:16:51,235 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-09-02 16:16:51,257 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2025-09-02 16:16:51,257 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2025-09-02 16:16:51,258 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-09-02 16:16:51,258 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-09-02 16:16:51,261 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2025-09-02 16:16:51,261 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-09-02 16:16:51,261 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2025-09-02 16:16:51,261 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-09-02 16:16:51,299 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-02 16:16:51,299 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-02 16:16:51,836 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-09-02 16:16:51,836 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-09-02 16:16:52,613 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-09-02 16:16:52,613 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-09-02 16:16:52,631 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-09-02 16:16:52,631 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-09-02 16:16:52,639 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project content-api 192.168.101.1:63040 register finished
+2025-09-02 16:16:52,639 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project content-api 192.168.101.1:63040 register finished
+2025-09-02 16:16:53,121 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-09-02 16:16:53,121 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-09-02 16:16:53,131 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-09-02 16:16:53,131 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-09-02 16:16:53,156 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-09-02 16:16:53,156 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-09-02 16:16:53,304 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 6.226 seconds (JVM running for 7.237)
+2025-09-02 16:16:53,304 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 6.226 seconds (JVM running for 7.237)
+2025-09-02 16:16:58,861 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5d2437ef: (connection has passed maxLifetime)
+2025-09-02 16:16:58,861 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5d2437ef: (connection has passed maxLifetime)
+2025-09-02 16:16:58,869 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59438a92
+2025-09-02 16:16:58,869 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59438a92
+2025-09-02 16:17:08,491 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:17:08,491 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:17:08,491 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:17:08,491 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:17:17,317 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@173d9ae7: (connection has passed maxLifetime)
+2025-09-02 16:17:17,317 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@173d9ae7: (connection has passed maxLifetime)
+2025-09-02 16:17:17,324 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cf4e043
+2025-09-02 16:17:17,324 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cf4e043
+2025-09-02 16:17:25,715 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@671ca147: (connection has passed maxLifetime)
+2025-09-02 16:17:25,715 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@671ca147: (connection has passed maxLifetime)
+2025-09-02 16:17:25,727 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14f998ad
+2025-09-02 16:17:25,727 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14f998ad
+2025-09-02 16:17:27,228 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@466450d9: (connection has passed maxLifetime)
+2025-09-02 16:17:27,228 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@466450d9: (connection has passed maxLifetime)
+2025-09-02 16:17:27,233 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c49296
+2025-09-02 16:17:27,233 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c49296
+2025-09-02 16:17:33,329 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@560090dc: (connection has passed maxLifetime)
+2025-09-02 16:17:33,329 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@560090dc: (connection has passed maxLifetime)
+2025-09-02 16:17:33,335 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@830299f
+2025-09-02 16:17:33,335 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@830299f
+2025-09-02 16:17:38,505 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:17:38,505 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:17:38,505 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:17:38,505 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:17:40,880 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@c26436b: (connection has passed maxLifetime)
+2025-09-02 16:17:40,880 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@c26436b: (connection has passed maxLifetime)
+2025-09-02 16:17:40,890 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39360eb3
+2025-09-02 16:17:40,890 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39360eb3
+2025-09-02 16:17:41,248 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2025-09-02 16:17:41,248 WARN [Thread-15][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-02 16:17:41,248 WARN [Thread-15][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-02 16:17:41,248 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2025-09-02 16:17:41,248 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2025-09-02 16:17:41,248 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2025-09-02 16:17:41,249 WARN [Thread-15][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2025-09-02 16:17:41,249 WARN [Thread-15][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2025-09-02 16:17:41,575 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-09-02 16:17:41,575 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-09-02 16:17:41,576 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2025-09-02 16:17:41,576 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2025-09-02 16:17:41,577 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2025-09-02 16:17:41,577 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2025-09-02 16:17:46,712 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-09-02 16:17:46,712 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-09-02 16:17:46,715 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-02 16:17:46,715 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-02 16:17:52,610 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-09-02 16:17:52,610 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2025-09-02 16:17:52,848 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2025-09-02 16:17:52,848 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2025-09-02 16:17:53,397 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-09-02 16:17:53,397 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2025-09-02 16:17:54,083 INFO [main][GenericScope.java:295] - BeanFactory id=08bae940-ecb6-37ca-b73f-e4a47fdca2c8
+2025-09-02 16:17:54,083 INFO [main][GenericScope.java:295] - BeanFactory id=08bae940-ecb6-37ca-b73f-e4a47fdca2c8
+2025-09-02 16:17:54,303 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-09-02 16:17:54,303 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-09-02 16:17:54,309 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-09-02 16:17:54,309 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-09-02 16:17:54,310 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-09-02 16:17:54,310 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-09-02 16:17:54,310 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-09-02 16:17:54,310 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-09-02 16:17:54,440 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-09-02 16:17:54,440 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-09-02 16:17:54,440 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1032 ms
+2025-09-02 16:17:54,440 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1032 ms
+2025-09-02 16:17:55,654 INFO [main][XxlJobConfig.java:46] - >>>>>>>>>>> xxl-job config init.
+2025-09-02 16:17:55,654 INFO [main][XxlJobConfig.java:46] - >>>>>>>>>>> xxl-job config init.
+2025-09-02 16:17:55,697 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-09-02 16:17:55,697 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-09-02 16:17:55,722 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2025-09-02 16:17:55,722 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2025-09-02 16:17:55,723 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-09-02 16:17:55,723 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-09-02 16:17:55,726 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2025-09-02 16:17:55,726 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2025-09-02 16:17:55,726 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-09-02 16:17:55,726 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-09-02 16:17:55,777 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-02 16:17:55,777 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-02 16:17:56,312 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-09-02 16:17:56,312 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-09-02 16:17:56,968 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:CoursePublishJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4bf4680c[class com.xuecheng.content.service.jobhandler.CoursePublishTask#coursePublishJobHandler]
+2025-09-02 16:17:56,968 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:CoursePublishJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4bf4680c[class com.xuecheng.content.service.jobhandler.CoursePublishTask#coursePublishJobHandler]
+2025-09-02 16:17:57,181 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-09-02 16:17:57,181 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-09-02 16:17:57,194 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-09-02 16:17:57,194 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-09-02 16:17:57,203 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project content-api 192.168.101.1:63040 register finished
+2025-09-02 16:17:57,203 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project content-api 192.168.101.1:63040 register finished
+2025-09-02 16:17:57,806 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-09-02 16:17:57,806 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2025-09-02 16:17:57,815 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-09-02 16:17:57,815 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2025-09-02 16:17:57,842 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-09-02 16:17:57,842 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2025-09-02 16:17:57,938 INFO [Thread-18][EmbedServer.java:82] - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 8999
+2025-09-02 16:17:57,938 INFO [Thread-18][EmbedServer.java:82] - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 8999
+2025-09-02 16:17:58,002 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 6.235 seconds (JVM running for 7.298)
+2025-09-02 16:17:58,002 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 6.235 seconds (JVM running for 7.298)
+2025-09-02 16:18:08,507 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:18:08,507 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:18:08,507 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:18:08,507 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:18:38,515 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:18:38,515 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:18:38,516 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:18:38,516 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:19:08,529 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:19:08,529 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:19:08,529 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:19:08,529 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:19:38,535 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:19:38,535 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:19:38,535 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:19:38,535 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:20:08,536 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:20:08,536 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:20:08,536 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:20:08,536 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:20:38,543 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:20:38,543 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:20:38,543 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:20:38,543 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:21:08,228 INFO [xxl-job, EmbedServer bizThreadPool-1061869205][XxlJobExecutor.java:246] - >>>>>>>>>>> xxl-job regist JobThread success, jobId:12, handler:com.xxl.job.core.handler.impl.MethodJobHandler@4bf4680c[class com.xuecheng.content.service.jobhandler.CoursePublishTask#coursePublishJobHandler]
+2025-09-02 16:21:08,228 INFO [xxl-job, EmbedServer bizThreadPool-1061869205][XxlJobExecutor.java:246] - >>>>>>>>>>> xxl-job regist JobThread success, jobId:12, handler:com.xxl.job.core.handler.impl.MethodJobHandler@4bf4680c[class com.xuecheng.content.service.jobhandler.CoursePublishTask#coursePublishJobHandler]
+2025-09-02 16:21:08,252 INFO [xxl-job, JobThread-12-1756848068228][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-09-02 16:21:08,252 INFO [xxl-job, JobThread-12-1756848068228][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-09-02 16:21:08,437 INFO [xxl-job, JobThread-12-1756848068228][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-09-02 16:21:08,437 INFO [xxl-job, JobThread-12-1756848068228][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-09-02 16:21:08,547 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:21:08,547 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:21:08,547 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:21:08,547 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:21:38,548 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:21:38,548 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:21:38,548 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:21:38,548 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:22:08,563 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:22:08,563 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:22:08,563 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:22:08,563 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:22:38,577 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:22:38,577 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:22:38,577 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:22:38,577 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:23:01,408 INFO [xxl-job, JobThread-12-1756848068228][JobThread.java:250] - >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[xxl-job, JobThread-12-1756848068228,10,main]
+2025-09-02 16:23:01,408 INFO [xxl-job, JobThread-12-1756848068228][JobThread.java:250] - >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[xxl-job, JobThread-12-1756848068228,10,main]
+2025-09-02 16:23:08,586 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:23:08,586 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:23:08,586 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:23:08,586 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:23:38,595 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:23:38,595 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:23:38,595 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:23:38,595 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:24:08,609 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:24:08,609 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:24:08,609 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:24:08,609 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:24:38,617 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:24:38,617 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:24:38,617 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:24:38,617 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:25:08,622 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:25:08,622 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:25:08,622 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:25:08,622 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:25:38,626 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:25:38,626 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:25:38,626 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:25:38,626 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:26:08,642 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:26:08,642 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:26:08,642 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:26:08,642 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:26:38,655 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:26:38,655 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:26:38,655 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:26:38,655 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:27:08,670 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:27:08,670 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:27:08,670 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:27:08,670 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:27:38,675 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:27:38,675 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:27:38,675 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:27:38,675 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:28:08,676 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:28:08,676 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:28:08,676 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:28:08,676 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:28:38,690 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:28:38,690 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:28:38,690 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:28:38,690 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:29:08,699 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:29:08,699 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:29:08,699 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:29:08,699 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:29:38,701 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:29:38,701 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:29:38,701 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:29:38,701 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:30:08,709 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:30:08,709 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:30:08,709 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:30:08,709 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:30:38,712 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:30:38,712 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:30:38,712 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:30:38,712 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:31:08,717 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:31:08,717 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 16:31:08,717 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 16:31:08,717 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.

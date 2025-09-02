@@ -70,5 +70,12 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
             <artifactId>xxl-job-core</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.xuecheng</groupId>
+            <artifactId>xuecheng-plus-message-sdk</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+
     </dependencies>
 </project>

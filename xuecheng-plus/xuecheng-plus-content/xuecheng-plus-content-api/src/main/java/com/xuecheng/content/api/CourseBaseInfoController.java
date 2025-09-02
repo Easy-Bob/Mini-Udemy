@@ -12,10 +12,9 @@ import com.xuecheng.content.service.CourseBaseInfoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.context.SecurityContextHolder;
+//import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import com.xuecheng.util.SecurityUtil;
 
 import javax.validation.Valid;
 import javax.validation.Validation;
@@ -50,8 +49,8 @@ public class CourseBaseInfoController {
         // 获取当前用户信息
 //        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
 //        System.out.println(principal);
-        SecurityUtil.XcUser user = SecurityUtil.getUser();
-        System.out.println(user.getName());
+//        SecurityUtil.XcUser user = SecurityUtil.getUser();
+//        System.out.println(user.getName());
         return courseBaseInfoService.getCourseBaseById(courseId);
     }
 
