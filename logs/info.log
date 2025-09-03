@@ -1,384 +1,94 @@
-2025-09-02 16:15:28,450 WARN [Thread-15][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
-2025-09-02 16:15:28,450 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
-2025-09-02 16:15:28,450 WARN [Thread-15][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
-2025-09-02 16:15:28,450 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
-2025-09-02 16:15:28,460 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
-2025-09-02 16:15:28,460 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
-2025-09-02 16:15:28,461 WARN [Thread-15][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
-2025-09-02 16:15:28,461 WARN [Thread-15][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
-2025-09-02 16:15:28,831 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-09-02 16:15:28,831 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-09-02 16:15:28,832 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
-2025-09-02 16:15:28,832 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
-2025-09-02 16:15:28,834 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
-2025-09-02 16:15:28,834 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
-2025-09-02 16:15:36,100 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
-2025-09-02 16:15:36,100 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
-2025-09-02 16:15:36,101 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2025-09-02 16:15:36,101 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2025-09-02 16:15:36,109 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
-2025-09-02 16:15:36,109 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
-2025-09-02 16:15:36,115 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
-2025-09-02 16:15:36,115 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
-2025-09-02 16:15:38,471 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:15:38,471 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:15:38,471 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:15:38,471 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:15:44,632 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
-2025-09-02 16:15:44,632 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
-2025-09-02 16:15:44,892 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2025-09-02 16:15:44,892 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2025-09-02 16:15:45,439 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
-2025-09-02 16:15:45,439 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
-2025-09-02 16:15:46,107 INFO [main][GenericScope.java:295] - BeanFactory id=b27238d2-9a46-3ca5-866c-575b1fb1f945
-2025-09-02 16:15:46,107 INFO [main][GenericScope.java:295] - BeanFactory id=b27238d2-9a46-3ca5-866c-575b1fb1f945
-2025-09-02 16:15:46,351 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
-2025-09-02 16:15:46,351 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
-2025-09-02 16:15:46,358 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
-2025-09-02 16:15:46,358 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
-2025-09-02 16:15:46,358 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
-2025-09-02 16:15:46,358 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
-2025-09-02 16:15:46,358 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2025-09-02 16:15:46,358 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2025-09-02 16:15:46,490 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
-2025-09-02 16:15:46,490 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
-2025-09-02 16:15:46,491 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1043 ms
-2025-09-02 16:15:46,491 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1043 ms
-2025-09-02 16:15:47,781 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2025-09-02 16:15:47,781 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2025-09-02 16:15:47,808 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-09-02 16:15:47,808 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-09-02 16:15:47,808 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-09-02 16:15:47,808 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-09-02 16:15:47,811 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-09-02 16:15:47,811 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-09-02 16:15:47,812 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-09-02 16:15:47,812 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-09-02 16:15:47,857 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
-2025-09-02 16:15:47,857 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
-2025-09-02 16:15:48,413 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-09-02 16:15:48,413 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-09-02 16:15:49,182 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
-2025-09-02 16:15:49,182 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
-2025-09-02 16:15:49,199 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
-2025-09-02 16:15:49,199 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
-2025-09-02 16:15:49,207 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project content-api 192.168.101.1:63040 register finished
-2025-09-02 16:15:49,207 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project content-api 192.168.101.1:63040 register finished
-2025-09-02 16:15:49,669 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
-2025-09-02 16:15:49,669 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
-2025-09-02 16:15:49,685 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
-2025-09-02 16:15:49,685 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
-2025-09-02 16:15:49,711 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
-2025-09-02 16:15:49,711 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
-2025-09-02 16:15:49,867 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 6.101 seconds (JVM running for 7.086)
-2025-09-02 16:15:49,867 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 6.101 seconds (JVM running for 7.086)
-2025-09-02 16:16:08,482 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:16:08,482 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:16:08,482 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:16:08,482 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:16:22,644 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a99b24: (connection has passed maxLifetime)
-2025-09-02 16:16:22,644 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a99b24: (connection has passed maxLifetime)
-2025-09-02 16:16:22,658 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c7164c9
-2025-09-02 16:16:22,658 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c7164c9
-2025-09-02 16:16:28,207 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@98b866b: (connection has passed maxLifetime)
-2025-09-02 16:16:28,207 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@98b866b: (connection has passed maxLifetime)
-2025-09-02 16:16:28,213 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a73ea4e
-2025-09-02 16:16:28,213 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a73ea4e
-2025-09-02 16:16:34,626 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
-2025-09-02 16:16:34,626 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
-2025-09-02 16:16:34,626 WARN [Thread-15][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
-2025-09-02 16:16:34,626 WARN [Thread-15][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
-2025-09-02 16:16:34,626 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
-2025-09-02 16:16:34,626 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
-2025-09-02 16:16:34,627 WARN [Thread-15][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
-2025-09-02 16:16:34,627 WARN [Thread-15][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
-2025-09-02 16:16:34,990 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-09-02 16:16:34,990 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-09-02 16:16:34,992 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
-2025-09-02 16:16:34,992 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
-2025-09-02 16:16:34,994 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
-2025-09-02 16:16:34,994 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
-2025-09-02 16:16:38,485 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:16:38,485 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:16:38,485 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:16:38,485 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:16:43,287 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
-2025-09-02 16:16:43,287 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
-2025-09-02 16:16:43,288 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2025-09-02 16:16:43,288 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2025-09-02 16:16:45,864 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@48b68c50: (connection has passed maxLifetime)
-2025-09-02 16:16:45,864 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@48b68c50: (connection has passed maxLifetime)
-2025-09-02 16:16:45,874 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e1bb108
-2025-09-02 16:16:45,874 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e1bb108
-2025-09-02 16:16:48,085 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
-2025-09-02 16:16:48,085 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
-2025-09-02 16:16:48,334 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2025-09-02 16:16:48,334 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2025-09-02 16:16:48,900 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
-2025-09-02 16:16:48,900 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
-2025-09-02 16:16:49,070 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@474e1143: (connection has passed maxLifetime)
-2025-09-02 16:16:49,070 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@474e1143: (connection has passed maxLifetime)
-2025-09-02 16:16:49,076 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f26bb33
-2025-09-02 16:16:49,076 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f26bb33
-2025-09-02 16:16:49,615 INFO [main][GenericScope.java:295] - BeanFactory id=b27238d2-9a46-3ca5-866c-575b1fb1f945
-2025-09-02 16:16:49,615 INFO [main][GenericScope.java:295] - BeanFactory id=b27238d2-9a46-3ca5-866c-575b1fb1f945
-2025-09-02 16:16:49,842 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
-2025-09-02 16:16:49,842 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
-2025-09-02 16:16:49,848 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
-2025-09-02 16:16:49,848 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
-2025-09-02 16:16:49,849 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
-2025-09-02 16:16:49,849 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
-2025-09-02 16:16:49,849 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2025-09-02 16:16:49,849 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2025-09-02 16:16:49,983 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
-2025-09-02 16:16:49,983 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
-2025-09-02 16:16:49,984 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1075 ms
-2025-09-02 16:16:49,984 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1075 ms
-2025-09-02 16:16:51,235 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2025-09-02 16:16:51,235 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2025-09-02 16:16:51,257 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-09-02 16:16:51,257 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-09-02 16:16:51,258 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-09-02 16:16:51,258 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-09-02 16:16:51,261 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-09-02 16:16:51,261 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-09-02 16:16:51,261 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-09-02 16:16:51,261 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-09-02 16:16:51,299 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
-2025-09-02 16:16:51,299 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
-2025-09-02 16:16:51,836 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-09-02 16:16:51,836 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-09-02 16:16:52,613 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
-2025-09-02 16:16:52,613 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
-2025-09-02 16:16:52,631 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
-2025-09-02 16:16:52,631 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
-2025-09-02 16:16:52,639 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project content-api 192.168.101.1:63040 register finished
-2025-09-02 16:16:52,639 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project content-api 192.168.101.1:63040 register finished
-2025-09-02 16:16:53,121 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
-2025-09-02 16:16:53,121 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
-2025-09-02 16:16:53,131 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
-2025-09-02 16:16:53,131 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
-2025-09-02 16:16:53,156 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
-2025-09-02 16:16:53,156 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
-2025-09-02 16:16:53,304 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 6.226 seconds (JVM running for 7.237)
-2025-09-02 16:16:53,304 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 6.226 seconds (JVM running for 7.237)
-2025-09-02 16:16:58,861 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5d2437ef: (connection has passed maxLifetime)
-2025-09-02 16:16:58,861 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5d2437ef: (connection has passed maxLifetime)
-2025-09-02 16:16:58,869 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59438a92
-2025-09-02 16:16:58,869 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59438a92
-2025-09-02 16:17:08,491 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:17:08,491 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:17:08,491 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:17:08,491 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:17:17,317 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@173d9ae7: (connection has passed maxLifetime)
-2025-09-02 16:17:17,317 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@173d9ae7: (connection has passed maxLifetime)
-2025-09-02 16:17:17,324 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cf4e043
-2025-09-02 16:17:17,324 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cf4e043
-2025-09-02 16:17:25,715 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@671ca147: (connection has passed maxLifetime)
-2025-09-02 16:17:25,715 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@671ca147: (connection has passed maxLifetime)
-2025-09-02 16:17:25,727 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14f998ad
-2025-09-02 16:17:25,727 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14f998ad
-2025-09-02 16:17:27,228 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@466450d9: (connection has passed maxLifetime)
-2025-09-02 16:17:27,228 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@466450d9: (connection has passed maxLifetime)
-2025-09-02 16:17:27,233 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c49296
-2025-09-02 16:17:27,233 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c49296
-2025-09-02 16:17:33,329 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@560090dc: (connection has passed maxLifetime)
-2025-09-02 16:17:33,329 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@560090dc: (connection has passed maxLifetime)
-2025-09-02 16:17:33,335 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@830299f
-2025-09-02 16:17:33,335 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@830299f
-2025-09-02 16:17:38,505 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:17:38,505 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:17:38,505 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:17:38,505 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:17:40,880 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@c26436b: (connection has passed maxLifetime)
-2025-09-02 16:17:40,880 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@c26436b: (connection has passed maxLifetime)
-2025-09-02 16:17:40,890 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39360eb3
-2025-09-02 16:17:40,890 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39360eb3
-2025-09-02 16:17:41,248 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
-2025-09-02 16:17:41,248 WARN [Thread-15][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
-2025-09-02 16:17:41,248 WARN [Thread-15][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
-2025-09-02 16:17:41,248 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
-2025-09-02 16:17:41,248 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
-2025-09-02 16:17:41,248 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
-2025-09-02 16:17:41,249 WARN [Thread-15][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
-2025-09-02 16:17:41,249 WARN [Thread-15][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
-2025-09-02 16:17:41,575 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-09-02 16:17:41,575 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-09-02 16:17:41,576 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
-2025-09-02 16:17:41,576 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
-2025-09-02 16:17:41,577 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
-2025-09-02 16:17:41,577 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
-2025-09-02 16:17:46,712 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
-2025-09-02 16:17:46,712 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
-2025-09-02 16:17:46,715 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2025-09-02 16:17:46,715 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2025-09-02 16:17:52,610 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
-2025-09-02 16:17:52,610 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
-2025-09-02 16:17:52,848 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2025-09-02 16:17:52,848 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2025-09-02 16:17:53,397 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
-2025-09-02 16:17:53,397 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
-2025-09-02 16:17:54,083 INFO [main][GenericScope.java:295] - BeanFactory id=08bae940-ecb6-37ca-b73f-e4a47fdca2c8
-2025-09-02 16:17:54,083 INFO [main][GenericScope.java:295] - BeanFactory id=08bae940-ecb6-37ca-b73f-e4a47fdca2c8
-2025-09-02 16:17:54,303 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
-2025-09-02 16:17:54,303 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
-2025-09-02 16:17:54,309 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
-2025-09-02 16:17:54,309 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
-2025-09-02 16:17:54,310 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
-2025-09-02 16:17:54,310 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
-2025-09-02 16:17:54,310 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2025-09-02 16:17:54,310 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2025-09-02 16:17:54,440 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
-2025-09-02 16:17:54,440 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
-2025-09-02 16:17:54,440 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1032 ms
-2025-09-02 16:17:54,440 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1032 ms
-2025-09-02 16:17:55,654 INFO [main][XxlJobConfig.java:46] - >>>>>>>>>>> xxl-job config init.
-2025-09-02 16:17:55,654 INFO [main][XxlJobConfig.java:46] - >>>>>>>>>>> xxl-job config init.
-2025-09-02 16:17:55,697 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2025-09-02 16:17:55,697 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2025-09-02 16:17:55,722 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-09-02 16:17:55,722 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-09-02 16:17:55,723 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-09-02 16:17:55,723 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-09-02 16:17:55,726 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-09-02 16:17:55,726 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
-2025-09-02 16:17:55,726 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-09-02 16:17:55,726 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2025-09-02 16:17:55,777 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
-2025-09-02 16:17:55,777 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
-2025-09-02 16:17:56,312 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-09-02 16:17:56,312 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
-2025-09-02 16:17:56,968 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:CoursePublishJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4bf4680c[class com.xuecheng.content.service.jobhandler.CoursePublishTask#coursePublishJobHandler]
-2025-09-02 16:17:56,968 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:CoursePublishJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4bf4680c[class com.xuecheng.content.service.jobhandler.CoursePublishTask#coursePublishJobHandler]
-2025-09-02 16:17:57,181 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
-2025-09-02 16:17:57,181 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
-2025-09-02 16:17:57,194 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
-2025-09-02 16:17:57,194 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
-2025-09-02 16:17:57,203 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project content-api 192.168.101.1:63040 register finished
-2025-09-02 16:17:57,203 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project content-api 192.168.101.1:63040 register finished
-2025-09-02 16:17:57,806 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
-2025-09-02 16:17:57,806 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
-2025-09-02 16:17:57,815 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
-2025-09-02 16:17:57,815 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
-2025-09-02 16:17:57,842 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
-2025-09-02 16:17:57,842 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
-2025-09-02 16:17:57,938 INFO [Thread-18][EmbedServer.java:82] - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 8999
-2025-09-02 16:17:57,938 INFO [Thread-18][EmbedServer.java:82] - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 8999
-2025-09-02 16:17:58,002 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 6.235 seconds (JVM running for 7.298)
-2025-09-02 16:17:58,002 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 6.235 seconds (JVM running for 7.298)
-2025-09-02 16:18:08,507 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:18:08,507 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:18:08,507 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:18:08,507 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:18:38,515 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:18:38,515 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:18:38,516 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:18:38,516 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:19:08,529 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:19:08,529 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:19:08,529 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:19:08,529 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:19:38,535 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:19:38,535 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:19:38,535 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:19:38,535 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:20:08,536 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:20:08,536 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:20:08,536 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:20:08,536 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:20:38,543 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:20:38,543 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:20:38,543 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:20:38,543 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:21:08,228 INFO [xxl-job, EmbedServer bizThreadPool-1061869205][XxlJobExecutor.java:246] - >>>>>>>>>>> xxl-job regist JobThread success, jobId:12, handler:com.xxl.job.core.handler.impl.MethodJobHandler@4bf4680c[class com.xuecheng.content.service.jobhandler.CoursePublishTask#coursePublishJobHandler]
-2025-09-02 16:21:08,228 INFO [xxl-job, EmbedServer bizThreadPool-1061869205][XxlJobExecutor.java:246] - >>>>>>>>>>> xxl-job regist JobThread success, jobId:12, handler:com.xxl.job.core.handler.impl.MethodJobHandler@4bf4680c[class com.xuecheng.content.service.jobhandler.CoursePublishTask#coursePublishJobHandler]
-2025-09-02 16:21:08,252 INFO [xxl-job, JobThread-12-1756848068228][HikariDataSource.java:110] - HikariPool-1 - Starting...
-2025-09-02 16:21:08,252 INFO [xxl-job, JobThread-12-1756848068228][HikariDataSource.java:110] - HikariPool-1 - Starting...
-2025-09-02 16:21:08,437 INFO [xxl-job, JobThread-12-1756848068228][HikariDataSource.java:123] - HikariPool-1 - Start completed.
-2025-09-02 16:21:08,437 INFO [xxl-job, JobThread-12-1756848068228][HikariDataSource.java:123] - HikariPool-1 - Start completed.
-2025-09-02 16:21:08,547 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:21:08,547 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:21:08,547 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:21:08,547 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:21:38,548 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:21:38,548 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:21:38,548 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:21:38,548 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:22:08,563 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:22:08,563 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:22:08,563 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:22:08,563 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:22:38,577 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:22:38,577 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:22:38,577 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:22:38,577 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:23:01,408 INFO [xxl-job, JobThread-12-1756848068228][JobThread.java:250] - >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[xxl-job, JobThread-12-1756848068228,10,main]
-2025-09-02 16:23:01,408 INFO [xxl-job, JobThread-12-1756848068228][JobThread.java:250] - >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[xxl-job, JobThread-12-1756848068228,10,main]
-2025-09-02 16:23:08,586 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:23:08,586 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:23:08,586 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:23:08,586 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:23:38,595 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:23:38,595 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:23:38,595 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:23:38,595 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:24:08,609 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:24:08,609 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:24:08,609 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:24:08,609 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:24:38,617 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:24:38,617 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:24:38,617 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:24:38,617 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:25:08,622 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:25:08,622 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:25:08,622 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:25:08,622 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:25:38,626 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:25:38,626 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:25:38,626 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:25:38,626 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:26:08,642 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:26:08,642 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:26:08,642 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:26:08,642 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:26:38,655 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:26:38,655 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:26:38,655 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:26:38,655 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:27:08,670 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:27:08,670 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:27:08,670 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:27:08,670 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:27:38,675 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:27:38,675 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:27:38,675 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:27:38,675 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:28:08,676 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:28:08,676 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:28:08,676 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:28:08,676 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:28:38,690 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:28:38,690 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:28:38,690 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:28:38,690 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:29:08,699 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:29:08,699 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:29:08,699 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:29:08,699 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:29:38,701 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:29:38,701 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:29:38,701 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:29:38,701 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:30:08,709 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:30:08,709 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:30:08,709 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:30:08,709 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:30:38,712 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:30:38,712 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:30:38,712 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:30:38,712 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:31:08,717 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:31:08,717 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-09-02 16:31:08,717 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-09-02 16:31:08,717 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 22:20:31,525 INFO [Thread-66][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2025-09-02 22:20:31,525 WARN [Thread-35][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2025-09-02 22:20:31,525 WARN [Thread-29][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-02 22:20:31,525 INFO [Thread-66][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2025-09-02 22:20:31,525 WARN [Thread-35][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2025-09-02 22:20:31,525 WARN [Thread-29][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-02 22:20:31,537 WARN [Thread-35][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2025-09-02 22:20:31,537 WARN [Thread-35][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2025-09-02 22:20:31,539 WARN [Thread-29][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2025-09-02 22:20:31,539 WARN [Thread-29][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2025-09-02 22:20:31,882 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-09-02 22:20:31,882 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-09-02 22:20:31,884 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2025-09-02 22:20:31,884 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2025-09-02 22:20:31,886 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2025-09-02 22:20:31,886 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2025-09-02 22:20:33,088 WARN [Thread-22][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-02 22:20:33,088 WARN [Thread-28][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2025-09-02 22:20:33,088 WARN [Thread-28][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2025-09-02 22:20:33,088 WARN [Thread-22][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-02 22:20:33,088 WARN [Thread-28][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2025-09-02 22:20:33,088 WARN [Thread-28][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2025-09-02 22:20:33,089 WARN [Thread-22][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2025-09-02 22:20:33,089 WARN [Thread-22][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2025-09-02 22:20:33,419 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-09-02 22:20:33,419 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2025-09-02 22:20:33,420 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2025-09-02 22:20:33,420 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2025-09-02 22:20:33,421 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2025-09-02 22:20:33,421 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2025-09-02 22:20:33,423 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2025-09-02 22:20:33,423 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2025-09-02 22:20:33,970 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@1d503f38 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@7a04f730
+2025-09-02 22:20:33,970 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@1d503f38 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@7a04f730
+2025-09-02 22:20:36,247 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 22:20:36,247 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 22:20:36,247 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 22:20:36,247 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-09-02 22:20:39,397 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-09-02 22:20:39,397 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-09-02 22:20:39,397 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-02 22:20:39,397 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-02 22:20:39,401 INFO [Thread-28][EmbedServer.java:91] - >>>>>>>>>>> xxl-job remoting server stop.
+2025-09-02 22:20:39,401 INFO [Thread-28][EmbedServer.java:91] - >>>>>>>>>>> xxl-job remoting server stop.
+2025-09-02 22:20:39,405 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:87] - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='coursepublish-job', registryValue='http://192.168.101.1:8999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2025-09-02 22:20:39,405 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:87] - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='coursepublish-job', registryValue='http://192.168.101.1:8999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2025-09-02 22:20:39,405 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:105] - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2025-09-02 22:20:39,405 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:105] - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2025-09-02 22:20:39,405 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2025-09-02 22:20:39,405 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2025-09-02 22:20:39,409 INFO [xxl-job, JobThread-12-1756867340083][JobThread.java:250] - >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[xxl-job, JobThread-12-1756867340083,10,main]
+2025-09-02 22:20:39,409 INFO [xxl-job, JobThread-12-1756867340083][JobThread.java:250] - >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[xxl-job, JobThread-12-1756867340083,10,main]
+2025-09-02 22:20:39,411 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2025-09-02 22:20:39,411 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2025-09-02 22:20:39,411 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2025-09-02 22:20:39,411 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2025-09-02 22:20:39,412 INFO [Thread-27][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2025-09-02 22:20:39,412 INFO [Thread-27][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2025-09-02 22:20:39,451 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-09-02 22:20:39,451 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-09-02 22:20:39,454 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-09-02 22:20:39,454 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-09-02 22:20:40,917 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-09-02 22:20:40,917 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-09-02 22:20:40,918 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-02 22:20:40,918 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-02 22:20:40,921 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-09-02 22:20:40,921 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-09-02 22:20:40,921 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 22:20:40,921 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-09-02 22:20:40,922 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@57254f4b: (connection evicted)
+2025-09-02 22:20:40,922 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@57254f4b: (connection evicted)
+2025-09-02 22:20:40,923 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16184570: (connection evicted)
+2025-09-02 22:20:40,923 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16184570: (connection evicted)
+2025-09-02 22:20:40,923 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@63c3cca3: (connection evicted)
+2025-09-02 22:20:40,923 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@63c3cca3: (connection evicted)
+2025-09-02 22:20:40,924 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@22fec698: (connection evicted)
+2025-09-02 22:20:40,924 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@22fec698: (connection evicted)
+2025-09-02 22:20:40,924 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1316e5ad: (connection evicted)
+2025-09-02 22:20:40,924 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1316e5ad: (connection evicted)
+2025-09-02 22:20:40,924 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@64d190a5: (connection evicted)
+2025-09-02 22:20:40,924 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@64d190a5: (connection evicted)
+2025-09-02 22:20:40,924 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@469f07b7: (connection evicted)
+2025-09-02 22:20:40,924 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@469f07b7: (connection evicted)
+2025-09-02 22:20:40,924 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1f281959: (connection evicted)
+2025-09-02 22:20:40,924 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1f281959: (connection evicted)
+2025-09-02 22:20:40,924 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@342b06e: (connection evicted)
+2025-09-02 22:20:40,924 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@342b06e: (connection evicted)
+2025-09-02 22:20:40,924 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@427fba55: (connection evicted)
+2025-09-02 22:20:40,924 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@427fba55: (connection evicted)
+2025-09-02 22:20:40,925 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-09-02 22:20:40,925 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-09-02 22:20:40,925 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-09-02 22:20:40,925 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
