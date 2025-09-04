@@ -114,3 +114,12 @@ GET {{media_host}}/content/download
 
 ### 媒资文件删除测试
 GET {{media_host}}/media/delete
+
+### 课程发布
+  POST {{content_host}}/content/coursepublish/2
+
+
+### 课程查询(需要密钥版)
+GET {{gateway_host}}/content/course/40
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3NTY2NzQzMzIsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjQ2YTQxZjc0LWYyMjMtNDQxNC1iMzhhLWJlOWMzYmVmMTJmYSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.bJR633dJ0u7m0FP08UBV9Y3rkjq5DLbEid1bunKBD1o
+Content-Type: application/json

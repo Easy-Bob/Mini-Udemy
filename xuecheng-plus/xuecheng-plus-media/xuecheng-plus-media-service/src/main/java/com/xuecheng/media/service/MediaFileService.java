@@ -40,7 +40,7 @@ public interface MediaFileService {
   * @param localFilePath 文件磁盘路径
   * @return 文件信息
   */
- public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath);
+ public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath, String objectName);
 
  /**
   * 为了让事务不失效，把MediaFilesServiceImpl的addMediaFilesToDb方法写一份到这个接口
