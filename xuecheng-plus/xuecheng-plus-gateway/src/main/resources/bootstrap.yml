@@ -36,3 +36,11 @@ spring:
           uri: lb://search
           predicates:
             - Path=/search/**
+        - id: auth
+          uri: lb://auth
+          predicates:
+            - Path=/auth/**
+        - id: checkcode
+          uri: lb://checkcode
+          predicates:
+            - Path=/checkcode/**
